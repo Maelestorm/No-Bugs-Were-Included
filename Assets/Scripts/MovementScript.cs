@@ -6,75 +6,54 @@ using UnityEngine;
 
 public class MovementScript : MonoBehaviour
 {
-    public float jumpForce = 10.0f;
-    public float speed = 1.0f;
-    private float moveDirection;
+    private float horizontal;
+    private float speed = 3f;
+    private float jumpingPower = 4f;
+    private bool isFacingRight = true;
 
-    private bool jump;
-    private bool grounded = true;
-    private bool moving;
-    private Rigidbody2D _rigidbody2dD;
-    private SpriteRenderer _spriteRenderer;
+    [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private Transform groundCheck;
+    [SerializeField] private LayerMask groundLayer;
 
 
-    void Start()
-    {
-        _rigidbody2dD = GetComponent<Rigidbody2D>();
-        _spriteRenderer = GetComponent<SpriteRenderer>();
-    }
 
     private void FixedUpdate()
     {
-        if (_rigidbody2dD.velocity != Vector2.zero)
-        {
-            moving = true;
-        }
-        else
-        {
-            moving = false;
-        }
-
-        _rigidbody2dD.velocity = new Vector2(speed * moveDirection, _rigidbody2dD.velocity.y);
-        if (jump == true)
-        {
-            _rigidbody2dD.velocity = new Vector2(_rigidbody2dD.velocity.x, jumpForce);
-            jump = false;
-        }
+        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
     }
 
     private void Update()
     {
-        if (grounded == true && (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)))
-        {
-            if (Input.GetKey(KeyCode.A))
-            {
-                moveDirection = -1.0f;
-                _spriteRenderer.flipX = true;
-            }
-            else if (Input.GetKey(KeyCode.D))
-            {
-                moveDirection = 1.0f;
-                _spriteRenderer.flipX = false;
-            }
-        }
-        else if (grounded == true)
-        {
-            moveDirection = 0.0f;
-        }
+       horizontal = Input.GetAxisRaw("Horizontal");
+       
+       Flip();
+       
+       if (Input.GetButtonDown("Jump") && IsGrounded())
+       {
+        rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
+       }
 
-        if (grounded == true && Input.GetKey(KeyCode.W))
-        {
-            jump = true;
-            grounded = false;
+       if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
+       {
+        rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
+       }
 
-        }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private bool IsGrounded()
     {
-        if (collision.gameObject.CompareTag("Ground"))
+        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+
+    }
+
+    private void Flip()
+    {
+        if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
         {
-            grounded = true;
+            isFacingRight = !isFacingRight;
+            Vector3 localScale = transform.localScale;
+            localScale.x*=-1f;
+            transform.localScale = localScale;
         }
     }
 }
