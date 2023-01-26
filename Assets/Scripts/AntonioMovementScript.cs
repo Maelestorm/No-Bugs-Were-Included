@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.Assertions;
 
 public class AntonioMovementScript : MonoBehaviour
 {
@@ -10,10 +11,12 @@ public class AntonioMovementScript : MonoBehaviour
     private float speed = 4f;
     private float jumpingPower = 5f;
     private bool isFacingRight = true;
+    public Animator animator;
 
     private bool canDash = true;
     private bool isDashing;
     private float dashingPower = 10f;
+    private float dashingHeight = 2.5f;
     private float dashingTime = 0.2f;
     private float dashingCooldown = 1f;
 
@@ -31,6 +34,11 @@ public class AntonioMovementScript : MonoBehaviour
         }
 
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+
+        if (horizontal != 0)
+            animator.SetFloat("antSpeed", speed);
+        else
+            animator.SetFloat("antSpeed", 0);
     }
 
     private void Update()
@@ -81,7 +89,7 @@ public class AntonioMovementScript : MonoBehaviour
         isDashing = true;
         float originalGravity = rb.gravityScale;
         rb.gravityScale = 0f;
-        rb.velocity = new Vector2(transform.localScale.x * dashingPower, 0f);
+        rb.velocity = new Vector2(transform.localScale.x * dashingPower, transform.localScale.y * dashingHeight);
         tr.emitting= true;
 
         yield return new WaitForSeconds(dashingTime);
@@ -92,5 +100,4 @@ public class AntonioMovementScript : MonoBehaviour
         yield return new WaitForSeconds(dashingCooldown);
         canDash= true;
     }
-
 }
