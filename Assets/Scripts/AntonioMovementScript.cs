@@ -43,7 +43,7 @@ public class AntonioMovementScript : MonoBehaviour
 
     private void Update()
     {
-        if(isDashing)
+        if (isDashing)
         {
             return;
         }
@@ -54,18 +54,29 @@ public class AntonioMovementScript : MonoBehaviour
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
+            animator.SetBool("antJump", true); // set antJump to true when jumping
+            Debug.Log("setbool set to true");
         }
 
-        if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
+
+        if (IsGrounded())
         {
-            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
+            animator.SetBool("antJump", false); // set antJump to false when on the ground
+            Debug.Log("setbool set to false");
         }
+        else
+        {
+            animator.SetBool("antJump", true); // set antJump to true when in the air
+        }
+
+
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
         {
             StartCoroutine(Dash());
         }
     }
+
 
     private bool IsGrounded()
     {
