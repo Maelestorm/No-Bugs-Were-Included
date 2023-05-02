@@ -8,10 +8,14 @@ using UnityEngine.Assertions;
 public class AntonioMovementScript : MonoBehaviour
 {
     private float horizontal;
-    private float speed = 4f;
-    private float jumpingPower = 5f;
     private bool isFacingRight = true;
-    public Animator animator;
+    private float speed = 4f;
+
+    private float jumpForce = 5f;
+    private bool isGrounded;
+    private bool isJumping;
+    private float jumpTimeCounter;
+    [SerializeField] private float jumpTime;
 
     private bool canDash = true;
     private bool isDashing;
@@ -20,11 +24,20 @@ public class AntonioMovementScript : MonoBehaviour
     private float dashingTime = 0.2f;
     private float dashingCooldown = 1f;
 
-    [SerializeField] private Rigidbody2D rb;
+
+    private Rigidbody2D rb;
+    private Animator anim;
     [SerializeField] private Transform groundCheck;
+    [SerializeField] private float checkRadius;
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private TrailRenderer tr;
 
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+    }
 
     private void FixedUpdate()
     {
@@ -32,13 +45,6 @@ public class AntonioMovementScript : MonoBehaviour
         {
             return;
         }
-
-        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
-
-        if (horizontal != 0)
-            animator.SetFloat("antSpeed", speed);
-        else
-            animator.SetFloat("antSpeed", 0);
     }
 
     private void Update()
@@ -48,28 +54,67 @@ public class AntonioMovementScript : MonoBehaviour
             return;
         }
 
-        horizontal = Input.GetAxisRaw("Horizontal");
-        Flip();
+        //isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
 
-        if (Input.GetButtonDown("Jump") && IsGrounded())
+
+        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
-            animator.SetBool("antJump", true); // set antJump to true when jumping
-            Debug.Log("setbool set to true");
+            anim.SetTrigger("takeOf");
+            isJumping = true;
+            jumpTimeCounter = jumpTime;
+            rb.velocity = Vector2.up * jumpForce;
         }
-
 
         if (IsGrounded())
         {
-            animator.SetBool("antJump", false); // set antJump to false when on the ground
-            Debug.Log("setbool set to false");
+            anim.SetBool("inAir", false);
         }
         else
         {
-            animator.SetBool("antJump", true); // set antJump to true when in the air
+            anim.SetBool("inAir", true);
         }
 
+        if (Input.GetKeyDown(KeyCode.Space) && isJumping == true)
+        {
+            if (jumpTimeCounter > 0)
+            {
+                rb.velocity = Vector2.up * jumpForce;
+                jumpTimeCounter -= Time.deltaTime;
+            }
+            else
+            {
+                isJumping = false;
+            }
+        }
 
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            isJumping = false;
+        }
+
+        float moveInput = Input.GetAxisRaw("Horizontal");
+        rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+
+        //checking for idling or running
+        if (moveInput == 0)
+        {
+            anim.SetBool("isRunning", false);
+        }
+        else
+        {
+            anim.SetBool("isRunning", true);
+        }
+
+        //flipping
+        if (moveInput < 0)
+        {
+            transform.eulerAngles = new Vector3(0, 180, 0);
+        }
+        else if (moveInput > 0)
+        {
+            transform.eulerAngles = new Vector3(0, 0, 0);
+
+        }
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
         {
@@ -77,22 +122,12 @@ public class AntonioMovementScript : MonoBehaviour
         }
     }
 
-
     private bool IsGrounded()
     {
-        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+        return Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
     }
 
-    private void Flip()
-    {
-        if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
-        {
-            isFacingRight = !isFacingRight;
-            Vector3 localScale = transform.localScale;
-            localScale.x *= -1f;
-            transform.localScale = localScale;
-        }
-    }
+
 
     private IEnumerator Dash()
     {
@@ -101,14 +136,14 @@ public class AntonioMovementScript : MonoBehaviour
         float originalGravity = rb.gravityScale;
         rb.gravityScale = 0f;
         rb.velocity = new Vector2(transform.localScale.x * dashingPower, transform.localScale.y * dashingHeight);
-        tr.emitting= true;
+        tr.emitting = true;
 
         yield return new WaitForSeconds(dashingTime);
         tr.emitting = false;
-        rb.gravityScale=originalGravity;
-        isDashing= false;
+        rb.gravityScale = originalGravity;
+        isDashing = false;
 
         yield return new WaitForSeconds(dashingCooldown);
-        canDash= true;
+        canDash = true;
     }
 }
