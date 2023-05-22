@@ -8,7 +8,6 @@ using UnityEngine.Assertions;
 public class AntonioMovementScript : MonoBehaviour
 {
     private float horizontal;
-    private bool isFacingRight = true;
     private float speed = 4f;
 
     private float jumpForce = 5f;
@@ -27,6 +26,7 @@ public class AntonioMovementScript : MonoBehaviour
 
     private Rigidbody2D rb;
     private Animator anim;
+
     [SerializeField] private Transform groundCheck;
     [SerializeField] private float checkRadius;
     [SerializeField] private LayerMask groundLayer;
@@ -95,7 +95,7 @@ public class AntonioMovementScript : MonoBehaviour
         float moveInput = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
 
-        //checking for idling or running
+        // Checking for idling or running
         if (moveInput == 0)
         {
             anim.SetBool("isRunning", false);
@@ -105,6 +105,8 @@ public class AntonioMovementScript : MonoBehaviour
             anim.SetBool("isRunning", true);
         }
 
+
+
         //flipping
         if (moveInput < 0)
         {
@@ -113,7 +115,6 @@ public class AntonioMovementScript : MonoBehaviour
         else if (moveInput > 0)
         {
             transform.eulerAngles = new Vector3(0, 0, 0);
-
         }
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
