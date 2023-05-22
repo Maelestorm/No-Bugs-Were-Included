@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim.meta
 guid: 7386adc9862cbc94c89d18ce03f0f710
+========
+guid: 0fcd9aac183d1c144b3d0f7150e20264
+>>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/LadyBugNewAnim/LadyBugIdleNew.anim.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 7400000

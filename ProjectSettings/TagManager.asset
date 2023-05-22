@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ground
   - LevelTrigger
+  - AntonioMeleeCollider
+  - Enemy
   layers:
   - Default
   - TransparentFX
