@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: antonioAttack
+  m_Name: beetleRun
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -27,13 +27,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
         value: {x: 0, y: 0, z: 0}
-========
-        time: 0.16666667
-        value: {x: 0, y: 0, z: 132.42}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -41,20 +36,7 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
-========
-        time: 0.36666667
-        value: {x: 0, y: 0, z: 20.352}
-        inSlope: {x: 0, y: 0, z: -244.22403}
-        outSlope: {x: 0, y: 0, z: -244.22403}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.5
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: {x: 0, y: 0, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -65,233 +47,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: ArmFront
-========
-    path: antonioTorso/antonioUpperArmLight
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 0, y: 0, z: 17.617}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.16666667
-        value: {x: 0, y: 0, z: -2.556}
-        inSlope: {x: 0, y: 0, z: -121.10454}
-        outSlope: {x: 0, y: 0, z: -121.10454}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.36666667
-        value: {x: 0, y: 0, z: -26.788}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.5
-        value: {x: 0, y: 0, z: 17.617}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: antonioTorso/antonioUpperArmLight/antonioLowerArmLight/GrassSword
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 0, y: 0, z: 17.245}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.16666667
-        value: {x: 0, y: 0, z: -29.511}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.36666667
-        value: {x: 0, y: 0, z: 29.065}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.5
-        value: {x: 0, y: 0, z: 17.245}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: antonioTorso/antonioUpperArmDark
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 0, y: 0, z: 21.961}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.16666667
-        value: {x: 0, y: 0, z: 16.803}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.5
-        value: {x: 0, y: 0, z: 21.961}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: antonioHip/antonioUpperLegLight
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 0, y: 0, z: 19.659}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.16666667
-        value: {x: 0, y: 0, z: 45.004}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.5
-        value: {x: 0, y: 0, z: 19.659}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: antonioHip/antonioUpperLegDark
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 0, y: 0, z: -10.124}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.16666667
-        value: {x: 0, y: 0, z: -30.577}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.5
-        value: {x: 0, y: 0, z: -10.124}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: antonioHip/antonioUpperLegLight/antonioLowerLegLight
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 0, y: 0, z: -5.277}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.16666667
-        value: {x: 0, y: 0, z: -19.915}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.5
-        value: {x: 0, y: 0, z: -5.277}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: antonioHip/antonioUpperLegDark/antonioLowerLegDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -305,13 +61,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
         value: {x: 0, y: 0, z: 0}
-========
-        time: 0.16666667
-        value: {x: 0, y: 0, z: 9.142}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -319,20 +70,7 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
-========
-        time: 0.36666667
-        value: {x: 0, y: 0, z: -14.779}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.5
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: {x: 0, y: 0, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -343,7 +81,6 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: Head
   - curve:
       serializedVersion: 2
@@ -379,15 +116,12 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     path: FootFront
-========
-    path: antonioTorso
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0, y: 0, z: -17.617}
+        value: {x: 0, y: 0, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -395,13 +129,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
         value: {x: 0, y: 0, z: -61.018}
-========
-        time: 0.36666667
-        value: {x: 0, y: 0, z: -46.389}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -409,13 +138,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: {x: 0, y: 0, z: 0}
-========
-        time: 0.5
-        value: {x: 0, y: 0, z: -17.617}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -425,17 +149,13 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: BackLeg
-========
-    path: antonioTorso/antonioUpperArmLight/antonioLowerArmLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0, y: 0, z: 8.939}
+        value: {x: 0, y: 0, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -443,13 +163,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
         value: {x: 0, y: 0, z: -37.798}
-========
-        time: 0.36666667
-        value: {x: 0, y: 0, z: -10.517}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -457,13 +172,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: {x: 0, y: 0, z: 0}
-========
-        time: 0.5
-        value: {x: 0, y: 0, z: 8.939}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -473,17 +183,13 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FootBack
-========
-    path: antonioTorso/antonioHead
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0, y: 0, z: -8.939}
+        value: {x: 0, y: 0, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -491,13 +197,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
         value: {x: 0, y: 0, z: 0}
-========
-        time: 0.36666667
-        value: {x: 0, y: 0, z: -49.009}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -505,13 +206,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: {x: 0, y: 0, z: 0}
-========
-        time: 0.5
-        value: {x: 0, y: 0, z: -8.939}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -521,7 +217,6 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: ArmBack
   - curve:
       serializedVersion: 2
@@ -591,16 +286,12 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     path: FrontLeg
-========
-    path: antonioTorso/antonioHead/antonioAntenna
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
   m_PositionCurves:
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         value: {x: -0.034999996, y: 0.34, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -629,9 +320,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.75
         value: {x: -0.034999996, y: 0.307, z: 0}
-========
-        value: {x: 0.004, y: 0.027, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -639,31 +327,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: {x: -0.034999996, y: 0.34, z: 0}
-========
-        time: 0.16666667
-        value: {x: -0.039, y: 0.067, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.36666667
-        value: {x: 0.023, y: 0.043, z: 0}
-        inSlope: {x: 0, y: -0.120000005, z: 0}
-        outSlope: {x: 0, y: -0.120000005, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.5
-        value: {x: 0.004, y: 0.027, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -673,17 +338,12 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: ArmFront
-========
-    path: antonioTorso/antonioUpperArmLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         value: {x: 0.034999996, y: 0.52, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -712,9 +372,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.75
         value: {x: 0.034999996, y: 0.487, z: 0}
-========
-        value: {x: 0.216, y: 0.155, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -722,31 +379,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: {x: 0.034999996, y: 0.52, z: 0}
-========
-        time: 0.16666667
-        value: {x: 0.323, y: 0.129, z: 0}
-        inSlope: {x: 0.4581818, y: -0.28363645, z: 0}
-        outSlope: {x: 0.4581818, y: -0.28363645, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.36666667
-        value: {x: 0.384, y: 0.015, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.5
-        value: {x: 0.216, y: 0.155, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -756,21 +390,13 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: Head
-========
-    path: antonioTorso/antonioUpperArmLight/antonioLowerArmLight/GrassSword
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         value: {x: -0.151, y: 0.159, z: 0}
-========
-        value: {x: 0.039, y: 0.065, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -778,7 +404,6 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.25
         value: {x: -0.121, y: 0.106, z: 0}
         inSlope: {x: 0.23999995, y: -0.023999985, z: 0}
@@ -790,10 +415,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.5
         value: {x: -0.026, y: 0.103, z: 0}
-========
-        time: 0.16666667
-        value: {x: -0.008, y: 0.062, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -801,29 +422,17 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.75
         value: {x: -0.121, y: 0.106, z: 0}
         inSlope: {x: -0.23999994, y: 0.023999989, z: 0}
         outSlope: {x: -0.23999994, y: 0.023999989, z: 0}
-========
-        time: 0.36666667
-        value: {x: 0.051, y: 0.065, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: {x: -0.151, y: 0.159, z: 0}
-========
-        time: 0.5
-        value: {x: 0.039, y: 0.065, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -833,17 +442,12 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FootFront
-========
-    path: antonioTorso/antonioUpperArmDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         value: {x: -0.025000006, y: 0.205, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -854,9 +458,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.5
         value: {x: -0.055, y: 0.248, z: 0}
-========
-        value: {x: -0.042, y: -0.193, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -864,22 +465,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: {x: -0.025000006, y: 0.205, z: 0}
-========
-        time: 0.16666667
-        value: {x: -0.061, y: -0.209, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.5
-        value: {x: -0.042, y: -0.193, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -889,17 +476,12 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: BackLeg
-========
-    path: antonioHip/antonioUpperLegLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         value: {x: -0.00999999, y: 0.105, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -910,9 +492,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.5
         value: {x: -0.141, y: 0.196, z: 0}
-========
-        value: {x: 0.038, y: -0.201, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -920,22 +499,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: {x: -0.00999999, y: 0.105, z: 0}
-========
-        time: 0.16666667
-        value: {x: 0.048, y: -0.199, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.5
-        value: {x: 0.039, y: -0.202, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -945,17 +510,12 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FootBack
-========
-    path: antonioHip/antonioUpperLegDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         value: {x: 0.014999986, y: 0.34, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -984,9 +544,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.75
         value: {x: 0.014999986, y: 0.307, z: 0}
-========
-        value: {x: -0.094, y: -0.104, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -994,22 +551,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: {x: 0.014999986, y: 0.34, z: 0}
-========
-        time: 0.16666667
-        value: {x: -0.091, y: -0.092, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.5
-        value: {x: -0.094, y: -0.104, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -1019,17 +562,12 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: ArmBack
-========
-    path: antonioHip/antonioUpperLegLight/antonioLowerLegLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         value: {x: -0.044999987, y: 0.345, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -1058,9 +596,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.75
         value: {x: -0.044999987, y: 0.312, z: 0}
-========
-        value: {x: -0.099, y: -0.098, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -1068,22 +603,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: {x: -0.044999987, y: 0.345, z: 0}
-========
-        time: 0.16666667
-        value: {x: -0.094, y: -0.099, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.5
-        value: {x: -0.099, y: -0.098, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -1093,17 +614,12 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: Body
-========
-    path: antonioHip/antonioUpperLegDark/antonioLowerLegDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         value: {x: -0.06, y: 0.206, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -1132,9 +648,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.75
         value: {x: -0.069, y: 0.19, z: 0}
-========
-        value: {x: 0, y: 0, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -1142,31 +655,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: {x: -0.06, y: 0.206, z: 0}
-========
-        time: 0.16666667
-        value: {x: -0.04, y: -0.008, z: 0}
-        inSlope: {x: 0, y: -0.07363637, z: 0}
-        outSlope: {x: 0, y: -0.07363637, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.36666667
-        value: {x: 0.054, y: -0.027, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.5
-        value: {x: 0, y: 0, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -1176,145 +666,9 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FrontLeg
   m_ScaleCurves: []
   m_FloatCurves: []
-========
-    path: antonioTorso
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: -0.086, y: -0.103, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.36666667
-        value: {x: -0.086, y: -0.107, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.5
-        value: {x: -0.086, y: -0.103, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: antonioTorso/antonioUpperArmLight/antonioLowerArmLight
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 0.043, y: 0.12, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.36666667
-        value: {x: 0.056, y: 0.101, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.5
-        value: {x: 0.043, y: 0.12, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: antonioTorso/antonioHead
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: -0.005, y: 0.168, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.36666667
-        value: {x: -0.006, y: 0.162, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.5
-        value: {x: -0.005, y: 0.168, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: antonioTorso/antonioHead/antonioAntenna
-  m_ScaleCurves: []
-  m_FloatCurves:
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 2
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.5
-        value: 2
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_SortingOrder
-    path: antonioTorso/antonioUpperArmLight/antonioLowerArmLight/GrassSword
-    classID: 212
-    script: {fileID: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
   m_PPtrCurves: []
   m_SampleRate: 60
   m_WrapMode: 0
@@ -1324,233 +678,117 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
       path: 3062921843
-========
-      path: 3456032933
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
       attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
       path: 130111906
-========
-      path: 3560660189
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
       attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
       path: 1444877568
-========
-      path: 1134004318
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
       attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
       path: 221840883
-========
-      path: 3773447627
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
       attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
       path: 3999687322
-========
-      path: 1436904353
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
       attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
       path: 3034582928
-========
-      path: 588282681
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
       attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
       path: 2073732236
-========
-      path: 600370341
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
       attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
       path: 2013694420
-========
-      path: 3030995469
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
       attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
       path: 1444877568
-========
-      path: 1464371158
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3702326682
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2339472737
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3456032933
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
       path: 221840883
-========
-      path: 3560660189
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
       path: 3999687322
-========
-      path: 1134004318
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
       path: 2013694420
-========
-      path: 3773447627
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
       path: 3062921843
-========
-      path: 1436904353
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
       path: 130111906
-========
-      path: 588282681
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
       path: 3034582928
-========
-      path: 600370341
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
       path: 2073732236
-========
-      path: 3030995469
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
-========
-    - serializedVersion: 2
-      path: 1464371158
-      attribute: 4
-      script: {fileID: 0}
-      typeID: 4
-      customType: 4
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3702326682
-      attribute: 4
-      script: {fileID: 0}
-      typeID: 4
-      customType: 4
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2339472737
-      attribute: 4
-      script: {fileID: 0}
-      typeID: 4
-      customType: 4
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3560660189
-      attribute: 3762991556
-      script: {fileID: 0}
-      typeID: 212
-      customType: 26
-      isPPtrCurve: 0
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     pptrCurveMapping: []
   m_AnimationClipSettings:
     serializedVersion: 2
@@ -1562,7 +800,7 @@ AnimationClip:
     m_Level: 0
     m_CycleOffset: 0
     m_HasAdditiveReferencePose: 0
-    m_LoopTime: 0
+    m_LoopTime: 1
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0
@@ -1578,7 +816,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         value: -0.034999996
         inSlope: 0
         outSlope: 0
@@ -1607,9 +844,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.75
         value: -0.034999996
-========
-        value: 0.004
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1617,31 +851,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: -0.034999996
-========
-        time: 0.16666667
-        value: -0.039
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: 0.023
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0.004
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1652,11 +863,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: ArmFront
-========
-    path: antonioTorso/antonioUpperArmLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1664,7 +871,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         value: 0.34
         inSlope: 0
         outSlope: 0
@@ -1693,9 +899,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.75
         value: 0.307
-========
-        value: 0.027
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1703,31 +906,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: 0.34
-========
-        time: 0.16666667
-        value: 0.067
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: 0.043
-        inSlope: -0.120000005
-        outSlope: -0.120000005
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0.027
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1738,11 +918,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: ArmFront
-========
-    path: antonioTorso/antonioUpperArmLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1758,11 +934,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.25
-========
-        time: 0.16666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -1771,11 +943,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
-========
-        time: 0.36666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -1784,7 +952,6 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.75
         value: 0
         inSlope: 0
@@ -1795,9 +962,6 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-========
-        time: 0.5
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -1809,11 +973,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: ArmFront
-========
-    path: antonioTorso/antonioUpperArmLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1829,11 +989,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
-========
-        time: 0.16666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -1842,20 +998,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
-========
-        time: 0.36666667
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -1867,11 +1010,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: ArmFront
-========
-    path: antonioTorso/antonioUpperArmLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1887,11 +1026,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
-========
-        time: 0.16666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -1900,20 +1035,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
-========
-        time: 0.36666667
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -1925,11 +1047,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: ArmFront
-========
-    path: antonioTorso/antonioUpperArmLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1945,13 +1063,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
         value: 0
-========
-        time: 0.16666667
-        value: 132.42
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1959,20 +1072,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
-========
-        time: 0.36666667
-        value: 20.352
-        inSlope: -244.22403
-        outSlope: -244.22403
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -1984,11 +1084,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: ArmFront
-========
-    path: antonioTorso/antonioUpperArmLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1996,7 +1092,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         value: 0.034999996
         inSlope: 0
         outSlope: 0
@@ -2025,9 +1120,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.75
         value: 0.034999996
-========
-        value: 0.216
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2035,31 +1127,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: 0.034999996
-========
-        time: 0.16666667
-        value: 0.323
-        inSlope: 0.4581818
-        outSlope: 0.4581818
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: 0.384
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0.216
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2070,11 +1139,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: Head
-========
-    path: antonioTorso/antonioUpperArmLight/antonioLowerArmLight/GrassSword
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2082,7 +1147,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         value: 0.52
         inSlope: 0
         outSlope: 0
@@ -2111,9 +1175,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.75
         value: 0.487
-========
-        value: 0.155
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2121,31 +1182,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: 0.52
-========
-        time: 0.16666667
-        value: 0.129
-        inSlope: -0.28363645
-        outSlope: -0.28363645
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: 0.015
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0.155
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2156,11 +1194,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: Head
-========
-    path: antonioTorso/antonioUpperArmLight/antonioLowerArmLight/GrassSword
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2176,20 +1210,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.25
-========
-        time: 0.16666667
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -2199,7 +1220,6 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.5
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -2218,8 +1238,6 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-========
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -2231,11 +1249,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: Head
-========
-    path: antonioTorso/antonioUpperArmLight/antonioLowerArmLight/GrassSword
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2251,11 +1265,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
-========
-        time: 0.16666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -2264,20 +1274,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
-========
-        time: 0.36666667
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -2289,11 +1286,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: Head
-========
-    path: antonioTorso/antonioUpperArmLight/antonioLowerArmLight/GrassSword
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2309,11 +1302,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
-========
-        time: 0.16666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -2322,20 +1311,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
-========
-        time: 0.36666667
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -2347,11 +1323,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: Head
-========
-    path: antonioTorso/antonioUpperArmLight/antonioLowerArmLight/GrassSword
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2359,7 +1331,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 17.617
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2367,22 +1339,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
         value: 0
-========
-        time: 0.16666667
-        value: -2.556
-        inSlope: -121.10454
-        outSlope: -121.10454
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: -26.788
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2390,13 +1348,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: 0
-========
-        time: 0.5
-        value: 17.617
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2407,11 +1360,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: Head
-========
-    path: antonioTorso/antonioUpperArmLight/antonioLowerArmLight/GrassSword
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2419,22 +1368,14 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         value: -0.151
         inSlope: 0
         outSlope: 0
         tangentMode: 136
-========
-        value: 2
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.25
         value: -0.121
         inSlope: 0.23999995
@@ -2446,29 +1387,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.5
         value: -0.026
-========
-        time: 0.5
-        value: 2
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_SortingOrder
-    path: antonioTorso/antonioUpperArmLight/antonioLowerArmLight/GrassSword
-    classID: 212
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.039
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2476,38 +1394,17 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.75
         value: -0.121
         inSlope: -0.23999994
         outSlope: -0.23999994
-========
-        time: 0.16666667
-        value: -0.008
-        inSlope: 0
-        outSlope: 0
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: -0.151
-========
-        time: 0.36666667
-        value: 0.051
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0.039
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2518,11 +1415,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FootFront
-========
-    path: antonioTorso/antonioUpperArmDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2530,11 +1423,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         value: 0.159
-========
-        value: 0.065
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2542,7 +1431,6 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.25
         value: 0.106
         inSlope: -0.023999985
@@ -2554,10 +1442,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.5
         value: 0.103
-========
-        time: 0.16666667
-        value: 0.062
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2565,29 +1449,17 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.75
         value: 0.106
         inSlope: 0.023999989
         outSlope: 0.023999989
-========
-        time: 0.36666667
-        value: 0.065
-        inSlope: 0
-        outSlope: 0
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: 0.159
-========
-        time: 0.5
-        value: 0.065
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2598,11 +1470,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FootFront
-========
-    path: antonioTorso/antonioUpperArmDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2618,20 +1486,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.25
-========
-        time: 0.16666667
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -2641,7 +1496,6 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.5
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -2660,8 +1514,6 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-========
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -2673,11 +1525,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FootFront
-========
-    path: antonioTorso/antonioUpperArmDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2693,11 +1541,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
-========
-        time: 0.16666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -2706,20 +1550,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
-========
-        time: 0.36666667
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -2731,11 +1562,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FootFront
-========
-    path: antonioTorso/antonioUpperArmDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2751,11 +1578,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
-========
-        time: 0.16666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -2764,20 +1587,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
-========
-        time: 0.36666667
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -2789,11 +1599,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FootFront
-========
-    path: antonioTorso/antonioUpperArmDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2801,7 +1607,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         value: -42.139
         inSlope: 0
         outSlope: 0
@@ -2812,9 +1617,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.5
         value: 0
-========
-        value: 17.245
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2822,31 +1624,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: -42.139
-========
-        time: 0.16666667
-        value: -29.511
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: 29.065
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 17.245
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2857,11 +1636,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FootFront
-========
-    path: antonioTorso/antonioUpperArmDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2869,7 +1644,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         value: -0.025000006
         inSlope: 0
         outSlope: 0
@@ -2880,9 +1654,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.5
         value: -0.055
-========
-        value: -0.042
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2890,22 +1661,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: -0.025000006
-========
-        time: 0.16666667
-        value: -0.061
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: -0.042
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2916,11 +1673,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: BackLeg
-========
-    path: antonioHip/antonioUpperLegLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2928,7 +1681,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         value: 0.205
         inSlope: 0
         outSlope: 0
@@ -2939,9 +1691,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.5
         value: 0.248
-========
-        value: -0.193
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2949,22 +1698,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: 0.205
-========
-        time: 0.16666667
-        value: -0.209
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: -0.193
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2975,11 +1710,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: BackLeg
-========
-    path: antonioHip/antonioUpperLegLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2995,11 +1726,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
-========
-        time: 0.16666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -3008,11 +1735,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
-========
-        time: 0.5
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -3024,11 +1747,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: BackLeg
-========
-    path: antonioHip/antonioUpperLegLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3044,11 +1763,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
-========
-        time: 0.16666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -3057,11 +1772,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
-========
-        time: 0.5
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -3073,11 +1784,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: BackLeg
-========
-    path: antonioHip/antonioUpperLegLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3093,11 +1800,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
-========
-        time: 0.16666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -3106,11 +1809,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
-========
-        time: 0.5
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -3122,11 +1821,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: BackLeg
-========
-    path: antonioHip/antonioUpperLegLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3134,7 +1829,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 21.961
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3142,13 +1837,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
         value: -61.018
-========
-        time: 0.16666667
-        value: 16.803
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3156,13 +1846,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: 0
-========
-        time: 0.5
-        value: 21.961
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3173,11 +1858,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: BackLeg
-========
-    path: antonioHip/antonioUpperLegLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3185,7 +1866,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         value: -0.00999999
         inSlope: 0
         outSlope: 0
@@ -3196,9 +1876,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.5
         value: -0.141
-========
-        value: 0.038
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3206,22 +1883,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: -0.00999999
-========
-        time: 0.16666667
-        value: 0.048
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0.039
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3232,11 +1895,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FootBack
-========
-    path: antonioHip/antonioUpperLegDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3244,7 +1903,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         value: 0.105
         inSlope: 0
         outSlope: 0
@@ -3255,9 +1913,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.5
         value: 0.196
-========
-        value: -0.201
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3265,22 +1920,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: 0.105
-========
-        time: 0.16666667
-        value: -0.199
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: -0.202
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3291,11 +1932,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FootBack
-========
-    path: antonioHip/antonioUpperLegDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3311,11 +1948,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
-========
-        time: 0.16666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -3324,11 +1957,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
-========
-        time: 0.5
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -3340,11 +1969,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FootBack
-========
-    path: antonioHip/antonioUpperLegDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3360,11 +1985,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
-========
-        time: 0.16666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -3373,11 +1994,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
-========
-        time: 0.5
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -3389,11 +2006,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FootBack
-========
-    path: antonioHip/antonioUpperLegDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3409,11 +2022,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
-========
-        time: 0.16666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -3422,11 +2031,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
-========
-        time: 0.5
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -3438,11 +2043,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FootBack
-========
-    path: antonioHip/antonioUpperLegDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3450,7 +2051,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 19.659
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3458,13 +2059,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
         value: -37.798
-========
-        time: 0.16666667
-        value: 45.004
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3472,13 +2068,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: 0
-========
-        time: 0.5
-        value: 19.659
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3489,11 +2080,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FootBack
-========
-    path: antonioHip/antonioUpperLegDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3501,7 +2088,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         value: 0.014999986
         inSlope: 0
         outSlope: 0
@@ -3530,9 +2116,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.75
         value: 0.014999986
-========
-        value: -0.094
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3540,22 +2123,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: 0.014999986
-========
-        time: 0.16666667
-        value: -0.091
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: -0.094
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3566,11 +2135,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: ArmBack
-========
-    path: antonioHip/antonioUpperLegLight/antonioLowerLegLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3578,7 +2143,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         value: 0.34
         inSlope: 0
         outSlope: 0
@@ -3607,9 +2171,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.75
         value: 0.307
-========
-        value: -0.104
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3617,22 +2178,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: 0.34
-========
-        time: 0.16666667
-        value: -0.092
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: -0.104
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3643,11 +2190,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: ArmBack
-========
-    path: antonioHip/antonioUpperLegLight/antonioLowerLegLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3663,11 +2206,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.25
-========
-        time: 0.16666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -3677,7 +2216,6 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.5
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -3696,8 +2234,6 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-========
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -3709,11 +2245,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: ArmBack
-========
-    path: antonioHip/antonioUpperLegLight/antonioLowerLegLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3729,11 +2261,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
-========
-        time: 0.16666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -3742,11 +2270,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
-========
-        time: 0.5
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -3758,11 +2282,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: ArmBack
-========
-    path: antonioHip/antonioUpperLegLight/antonioLowerLegLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3778,11 +2298,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
-========
-        time: 0.16666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -3791,11 +2307,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
-========
-        time: 0.5
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -3807,11 +2319,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: ArmBack
-========
-    path: antonioHip/antonioUpperLegLight/antonioLowerLegLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3819,7 +2327,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -10.124
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3827,13 +2335,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
         value: 0
-========
-        time: 0.16666667
-        value: -30.577
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3841,13 +2344,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: 0
-========
-        time: 0.5
-        value: -10.124
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3858,11 +2356,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: ArmBack
-========
-    path: antonioHip/antonioUpperLegLight/antonioLowerLegLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3870,7 +2364,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         value: -0.044999987
         inSlope: 0
         outSlope: 0
@@ -3899,9 +2392,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.75
         value: -0.044999987
-========
-        value: -0.099
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3909,22 +2399,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: -0.044999987
-========
-        time: 0.16666667
-        value: -0.094
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: -0.099
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3935,11 +2411,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: Body
-========
-    path: antonioHip/antonioUpperLegDark/antonioLowerLegDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3947,7 +2419,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         value: 0.345
         inSlope: 0
         outSlope: 0
@@ -3976,9 +2447,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.75
         value: 0.312
-========
-        value: -0.098
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3986,22 +2454,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: 0.345
-========
-        time: 0.16666667
-        value: -0.099
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: -0.098
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -4012,11 +2466,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: Body
-========
-    path: antonioHip/antonioUpperLegDark/antonioLowerLegDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4032,11 +2482,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.25
-========
-        time: 0.16666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -4046,7 +2492,6 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.5
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -4065,8 +2510,6 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-========
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -4078,11 +2521,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: Body
-========
-    path: antonioHip/antonioUpperLegDark/antonioLowerLegDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4098,11 +2537,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
-========
-        time: 0.16666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -4111,11 +2546,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
-========
-        time: 0.5
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -4127,11 +2558,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: Body
-========
-    path: antonioHip/antonioUpperLegDark/antonioLowerLegDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4147,11 +2574,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
-========
-        time: 0.16666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -4160,11 +2583,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
-========
-        time: 0.5
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -4176,11 +2595,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: Body
-========
-    path: antonioHip/antonioUpperLegDark/antonioLowerLegDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4188,7 +2603,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -5.277
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -4196,13 +2611,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
         value: 0
-========
-        time: 0.16666667
-        value: -19.915
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -4210,13 +2620,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: 0
-========
-        time: 0.5
-        value: -5.277
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -4227,7 +2632,6 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: Body
     classID: 4
     script: {fileID: 0}
@@ -4339,9 +2743,6 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
     path: FrontLeg
-========
-    path: antonioHip/antonioUpperLegDark/antonioLowerLegDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4357,22 +2758,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.25
         value: 0
-========
-        time: 0.16666667
-        value: -0.04
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: 0.054
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -4388,23 +2775,8 @@ AnimationClip:
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
       - serializedVersion: 3
         time: 0.75
-========
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.x
-    path: antonioTorso
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -4413,75 +2785,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
-========
-        time: 0.16666667
-        value: -0.008
-        inSlope: -0.07363637
-        outSlope: -0.07363637
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: -0.027
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.y
-    path: antonioTorso
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.16666667
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -4493,11 +2797,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FrontLeg
-========
-    path: antonioTorso
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4513,11 +2813,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
-========
-        time: 0.16666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -4526,20 +2822,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
-========
-        time: 0.36666667
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -4551,11 +2834,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FrontLeg
-========
-    path: antonioTorso
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4571,11 +2850,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 0.5
-========
-        time: 0.16666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -4584,20 +2859,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
-========
-        time: 0.36666667
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -4609,11 +2871,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FrontLeg
-========
-    path: antonioTorso
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4638,31 +2896,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
         time: 1
         value: -62.826
-========
-        time: 0.16666667
-        value: 9.142
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: -14.779
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -4673,677 +2908,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FrontLeg
-========
-    path: antonioTorso
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -0.086
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: -0.086
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: -0.086
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.x
-    path: antonioTorso/antonioUpperArmLight/antonioLowerArmLight
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -0.103
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: -0.107
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: -0.103
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.y
-    path: antonioTorso/antonioUpperArmLight/antonioLowerArmLight
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.z
-    path: antonioTorso/antonioUpperArmLight/antonioLowerArmLight
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.x
-    path: antonioTorso/antonioUpperArmLight/antonioLowerArmLight
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.y
-    path: antonioTorso/antonioUpperArmLight/antonioLowerArmLight
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -17.617
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: -46.389
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: -17.617
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.z
-    path: antonioTorso/antonioUpperArmLight/antonioLowerArmLight
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.043
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: 0.056
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0.043
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.x
-    path: antonioTorso/antonioHead
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.12
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: 0.101
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0.12
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.y
-    path: antonioTorso/antonioHead
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.z
-    path: antonioTorso/antonioHead
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.x
-    path: antonioTorso/antonioHead
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.y
-    path: antonioTorso/antonioHead
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 8.939
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: -10.517
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 8.939
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.z
-    path: antonioTorso/antonioHead
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -0.005
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: -0.006
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: -0.005
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.x
-    path: antonioTorso/antonioHead/antonioAntenna
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.168
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: 0.162
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0.168
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.y
-    path: antonioTorso/antonioHead/antonioAntenna
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.z
-    path: antonioTorso/antonioHead/antonioAntenna
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.x
-    path: antonioTorso/antonioHead/antonioAntenna
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.y
-    path: antonioTorso/antonioHead/antonioAntenna
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -8.939
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.36666667
-        value: -49.009
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: -8.939
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.z
-    path: antonioTorso/antonioHead/antonioAntenna
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves:
@@ -5354,11 +2919,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: ArmFront
-========
-    path: antonioHip/antonioUpperLegDark/antonioLowerLegDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5368,11 +2929,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: ArmFront
-========
-    path: antonioHip/antonioUpperLegDark/antonioLowerLegDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5382,11 +2939,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: ArmFront
-========
-    path: antonioHip/antonioUpperLegDark/antonioLowerLegDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5396,11 +2949,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: Body
-========
-    path: antonioHip/antonioUpperLegDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5410,11 +2959,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: Body
-========
-    path: antonioHip/antonioUpperLegDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5424,11 +2969,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: Body
-========
-    path: antonioHip/antonioUpperLegDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5438,11 +2979,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FootFront
-========
-    path: antonioTorso/antonioUpperArmLight/antonioLowerArmLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5452,11 +2989,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FootFront
-========
-    path: antonioTorso/antonioUpperArmLight/antonioLowerArmLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5466,11 +2999,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FootFront
-========
-    path: antonioTorso/antonioUpperArmLight/antonioLowerArmLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5480,11 +3009,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FrontLeg
-========
-    path: antonioTorso
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5494,11 +3019,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FrontLeg
-========
-    path: antonioTorso
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5508,11 +3029,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FrontLeg
-========
-    path: antonioTorso
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5522,11 +3039,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: ArmBack
-========
-    path: antonioHip/antonioUpperLegLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5536,11 +3049,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: ArmBack
-========
-    path: antonioHip/antonioUpperLegLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5550,11 +3059,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: ArmBack
-========
-    path: antonioHip/antonioUpperLegLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5564,11 +3069,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: BackLeg
-========
-    path: antonioHip/antonioUpperLegLight/antonioLowerLegLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5578,11 +3079,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: BackLeg
-========
-    path: antonioHip/antonioUpperLegLight/antonioLowerLegLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5592,11 +3089,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: BackLeg
-========
-    path: antonioHip/antonioUpperLegLight/antonioLowerLegLight
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5606,11 +3099,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FootBack
-========
-    path: antonioTorso/antonioUpperArmDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5620,11 +3109,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FootBack
-========
-    path: antonioTorso/antonioUpperArmDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5634,7 +3119,6 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: FootBack
     classID: 4
     script: {fileID: 0}
@@ -5656,9 +3140,6 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
     path: Head
-========
-    path: antonioTorso/antonioUpperArmDark
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5668,137 +3149,9 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleRun.anim
     path: Head
-========
-    path: antonioTorso/antonioHead
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: antonioTorso/antonioHead
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: antonioTorso/antonioHead
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: antonioTorso/antonioUpperArmLight
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: antonioTorso/antonioUpperArmLight
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: antonioTorso/antonioUpperArmLight
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: antonioTorso/antonioHead/antonioAntenna
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: antonioTorso/antonioHead/antonioAntenna
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: antonioTorso/antonioHead/antonioAntenna
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: antonioTorso/antonioUpperArmLight/antonioLowerArmLight/GrassSword
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: antonioTorso/antonioUpperArmLight/antonioLowerArmLight/GrassSword
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: antonioTorso/antonioUpperArmLight/antonioLowerArmLight/GrassSword
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Animations/Antonio/antonioAttack.anim
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events:
-  - time: 0.5833333
-    functionName: MeleeColliderActivate
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 1
-    functionName: MeleeColliderDeActivate
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
+  m_Events: []

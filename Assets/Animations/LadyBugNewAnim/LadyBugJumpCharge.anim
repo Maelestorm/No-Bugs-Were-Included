@@ -6,11 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-  m_Name: beetleAttack
-========
   m_Name: LadyBugJumpCharge
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -31,22 +27,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.33333334
-        value: {x: 0, y: 0, z: -34.658}
-        inSlope: {x: 0, y: 0, z: -113.698}
-        outSlope: {x: 0, y: 0, z: -113.698}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.5
-        value: {x: 0, y: 0, z: -56.849}
-========
         time: 0.083333336
         value: {x: 0, y: 0, z: -11.067}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -54,13 +36,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 1
-        value: {x: 0, y: 0, z: 0}
-========
         time: 0.16666667
         value: {x: 0, y: 0, z: -8.55}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -70,11 +47,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: ArmFront
-========
     path: LADYBUG_UpperRightLeg
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -88,69 +61,10 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.33333334
-        value: {x: 0, y: 0, z: -48.17}
-        inSlope: {x: 0, y: 0, z: -39.488}
-        outSlope: {x: 0, y: 0, z: -39.488}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.5
-        value: {x: 0, y: 0, z: -53.106}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 1
-        value: {x: 0, y: 0, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: ArmBack
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 0, y: 0, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.33333334
-        value: {x: 0, y: 0, z: -35.18}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.5
-        value: {x: 0, y: 0, z: -22.261}
-        inSlope: {x: 0, y: 0, z: 52.770004}
-        outSlope: {x: 0, y: 0, z: 52.770004}
-========
         time: 0.083333336
         value: {x: 0, y: 0, z: 3.515}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -167,11 +81,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: Body
-========
     path: LADYBUG_UpperStaff
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -185,13 +95,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.33333334
-        value: {x: 0, y: 0, z: -69.186}
-========
         time: 0.083333336
         value: {x: 0, y: 0, z: 3.515}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -199,22 +104,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.5
-        value: {x: 0, y: 0, z: 27.958}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 1
-        value: {x: 0, y: 0, z: 0}
-========
         time: 0.16666667
         value: {x: 0, y: 0, z: -8.606}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -224,11 +115,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: Head
-========
     path: LADYBUG_RightLowerArm
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -242,38 +129,17 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.33333334
-        value: {x: 0, y: 0, z: 12.641}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-========
         time: 0.083333336
         value: {x: 0, y: 0, z: -13.767}
         inSlope: {x: 0, y: 0, z: -128.91}
         outSlope: {x: 0, y: 0, z: -128.91}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.5
-        value: {x: 0, y: 0, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 1
-        value: {x: 0, y: 0, z: 0}
-========
         time: 0.16666667
         value: {x: 0, y: 0, z: -21.485}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -283,11 +149,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: FrontLeg
-========
     path: LADYBUG_LeftLowerArm
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -301,10 +163,6 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.33333334
-        value: {x: 0, y: 0, z: 20.619}
-========
         time: 0.083333336
         value: {x: 0, y: 0, z: -11.446}
         inSlope: {x: 0, y: 0, z: 0}
@@ -316,15 +174,12 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.16666667
         value: {x: 0, y: 0, z: -2.087}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-========
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -332,9 +187,8 @@ AnimationClip:
   - curve:
       serializedVersion: 2
       m_Curve:
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
       - serializedVersion: 3
-        time: 0.5
+        time: 0
         value: {x: 0, y: 0, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -363,9 +217,6 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: BackLeg
-========
     path: LADYBUG_RightUpperArm
   - curve:
       serializedVersion: 2
@@ -619,113 +470,13 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     path: LADYBUG_Torso
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
   m_PositionCurves:
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        value: {x: -0.04499999, y: 0.329, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.33333334
-        value: {x: -0.015, y: 0.301, z: 0}
-        inSlope: {x: 0.04800001, y: 0, z: 0}
-        outSlope: {x: 0.04800001, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.5
-        value: {x: -0.009, y: 0.337, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 1
-        value: {x: -0.04499999, y: 0.329, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: Body
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 0.01499999, y: 0.324, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.33333334
-        value: {x: -0.023, y: 0.296, z: 0}
-        inSlope: {x: -0.024000017, y: 0, z: 0}
-        outSlope: {x: -0.024000017, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.5
-        value: {x: -0.026, y: 0.314, z: 0}
-        inSlope: {x: 0, y: 0.042, z: 0}
-        outSlope: {x: 0, y: 0.042, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 1
-        value: {x: 0.01499999, y: 0.324, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: ArmBack
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: -0.035, y: 0.324, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.33333334
-        value: {x: -0.0070000067, y: 0.28, z: 0}
-========
         value: {x: 0.05, y: -0.482, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -733,29 +484,17 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.5
-        value: {x: -0.058000002, y: 0.314, z: 0}
-        inSlope: {x: 0, y: 0.05999995, z: 0}
-        outSlope: {x: 0, y: 0.05999995, z: 0}
-========
         time: 0.083333336
         value: {x: 0.05800002, y: -0.547, z: 0}
         inSlope: {x: 0, y: -0.43200016, z: 0}
         outSlope: {x: 0, y: -0.43200016, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 1
-        value: {x: -0.035, y: 0.324, z: 0}
-========
         time: 0.16666667
         value: {x: 0.055, y: -0.565, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -765,30 +504,13 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: ArmFront
-========
     path: LADYBUG_UpperRightLeg
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        value: {x: 0.034999996, y: 0.50399995, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.33333334
-        value: {x: 0.148, y: 0.292, z: 0}
-========
         value: {x: 0.32, y: 0.123, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -796,29 +518,17 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.5
-        value: {x: 0.112, y: 0.524, z: 0}
-        inSlope: {x: -0.16950002, y: 0, z: 0}
-        outSlope: {x: -0.16950002, y: 0, z: 0}
-========
         time: 0.083333336
         value: {x: 0.32033777, y: 0.0964421, z: 0}
         inSlope: {x: 0.0081067085, y: 0, z: 0}
         outSlope: {x: 0.0081067085, y: 0, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 1
-        value: {x: 0.034999996, y: 0.50399995, z: 0}
-========
         time: 0.16666667
         value: {x: 0.33, y: 0.097, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -828,30 +538,13 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: Head
-========
     path: LADYBUG_UpperStaff
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        value: {x: -0.065, y: 0.195, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.33333334
-        value: {x: -0.077, y: 0.191, z: 0}
-========
         value: {x: 0.226, y: -0.048, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -859,10 +552,6 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 1
-        value: {x: -0.065, y: 0.195, z: 0}
-========
         time: 0.083333336
         value: {x: 0.237, y: -0.08, z: 0}
         inSlope: {x: 0, y: -0.4259611, z: 0}
@@ -874,7 +563,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.16666667
         value: {x: 0.20673585, y: -0.11899352, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -884,30 +572,13 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: FrontLeg
-========
     path: LADYBUG_RightLowerArm
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        value: {x: -0.06999999, y: 0.095, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.33333334
-        value: {x: -0.086, y: 0.095, z: 0}
-========
         value: {x: -0.161, y: -0.194, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -915,10 +586,6 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 1
-        value: {x: -0.06999999, y: 0.095, z: 0}
-========
         time: 0.083333336
         value: {x: -0.216, y: -0.224, z: 0}
         inSlope: {x: 0, y: -0.258, z: 0}
@@ -930,7 +597,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.16666667
         value: {x: -0.21, y: -0.237, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -940,30 +606,13 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: FootFront
-========
     path: LADYBUG_LeftLowerArm
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        value: {x: -0.025000006, y: 0.205, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.33333334
-        value: {x: -0.003, y: 0.201, z: 0}
-========
         value: {x: -0.157, y: -0.012, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -971,10 +620,6 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 1
-        value: {x: -0.025000006, y: 0.205, z: 0}
-========
         time: 0.083333336
         value: {x: -0.16173291, y: -0.051720142, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
@@ -986,7 +631,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.16666667
         value: {x: -0.16173291, y: -0.051720142, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -996,30 +640,13 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: BackLeg
-========
     path: LADYBUG_LeftUpperArm
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        value: {x: -0.00999999, y: 0.105, z: 0}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      - serializedVersion: 3
-        time: 0.33333334
-        value: {x: 0.004, y: 0.101, z: 0}
-========
         value: {x: 0.132, y: -0.011, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -1027,10 +654,6 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 1
-        value: {x: -0.00999999, y: 0.105, z: 0}
-========
         time: 0.083333336
         value: {x: 0.135, y: -0.061, z: 0}
         inSlope: {x: 0, y: -0.40800002, z: 0}
@@ -1042,7 +665,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.16666667
         value: {x: 0.111, y: -0.079, z: 0}
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -1052,40 +674,20 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: FootBack
-  m_ScaleCurves: []
-  m_FloatCurves:
-========
     path: LADYBUG_RightUpperArm
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        value: 7
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-========
         value: {x: 0.047, y: -0.706, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 1
-        value: 7
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-========
         time: 0.083333336
         value: {x: 0.022000074, y: -0.73699987, z: 0}
         inSlope: {x: -0.20999998, y: -0.3540001, z: 0}
@@ -1100,17 +702,12 @@ AnimationClip:
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    attribute: m_SortingOrder
-    path: ArmFront
-========
     path: LADYBUG_LowerRightLeg
   - curve:
       serializedVersion: 2
@@ -1412,7 +1009,6 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_SortingOrder
     path: LADYBUG_UpperStaff
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 212
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -1424,97 +1020,62 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-      path: 2073732236
-========
       path: 3312092514
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
       attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-      path: 3034582928
-========
       path: 3686996569
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
       attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-      path: 3062921843
-========
       path: 297993771
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
       attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-      path: 130111906
-========
       path: 1211761177
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
       attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-      path: 2013694420
-========
       path: 2807952518
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
       attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-      path: 1444877568
-========
       path: 4272222388
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
       attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-      path: 221840883
-========
       path: 2706329182
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
       attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-      path: 3999687322
-========
       path: 1980497008
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
       attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-      path: 3062921843
-========
       path: 946339945
       attribute: 1
       script: {fileID: 0}
@@ -1565,75 +1126,47 @@ AnimationClip:
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 3312092514
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-      path: 3034582928
-========
       path: 3686996569
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-      path: 2073732236
-========
       path: 297993771
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-      path: 130111906
-========
       path: 1211761177
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-      path: 2013694420
-========
       path: 2807952518
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-      path: 221840883
-========
       path: 4272222388
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-      path: 3062921843
-      attribute: 3762991556
-      script: {fileID: 0}
-      typeID: 212
-      customType: 26
-========
       path: 2706329182
       attribute: 4
       script: {fileID: 0}
@@ -1702,7 +1235,6 @@ AnimationClip:
       script: {fileID: 0}
       typeID: 4
       customType: 4
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
       isPPtrCurve: 0
     pptrCurveMapping: []
   m_AnimationClipSettings:
@@ -1731,11 +1263,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        value: -0.04499999
-========
         value: 0.05
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1743,26 +1271,15 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.33333334
-        value: -0.015
-        inSlope: 0.04800001
-        outSlope: 0.04800001
-========
         time: 0.083333336
         value: 0.05800002
         inSlope: 0
         outSlope: 0
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.5
-        value: -0.009
-========
         time: 0.16666667
         value: 0.055
         inSlope: 0
@@ -2006,7 +1523,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0
         value: 0.123
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2014,10 +1530,6 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 1
-        value: -0.04499999
-========
         time: 0.083333336
         value: 0.0964421
         inSlope: 0
@@ -2214,7 +1726,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.16666667
         value: 0.20673585
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -2225,9 +1736,6 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: Body
-========
     path: LADYBUG_RightLowerArm
     classID: 4
     script: {fileID: 0}
@@ -3302,7 +2810,6 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
     path: LADYBUG_LowerRightLeg
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3310,7 +2817,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.329
+        value: -0.047
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3318,28 +2825,6 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.33333334
-        value: 0.301
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0.337
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 1
-        value: 0.329
-========
         time: 0.083333336
         value: -0.109999985
         inSlope: 0
@@ -3555,26 +3040,12 @@ AnimationClip:
       - serializedVersion: 3
         time: 0
         value: -0.047
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.y
-    path: Body
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-========
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
       - serializedVersion: 3
         time: 0.083333336
         value: -0.053
@@ -3585,77 +3056,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.33333334
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.z
-    path: Body
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.01499999
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.33333334
-        value: -0.023
-        inSlope: -0.024000017
-        outSlope: -0.024000017
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: -0.026
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0.01499999
-========
         time: 0.16666667
         value: -0.056
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3666,11 +3068,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: ArmBack
-========
     path: LADYBUG_UpperLeftLeg
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3678,11 +3076,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        value: 0.324
-========
         value: -0.488
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3690,38 +3084,17 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.33333334
-        value: 0.296
-        inSlope: 0
-        outSlope: 0
-========
         time: 0.083333336
         value: -0.525
         inSlope: -0.3960001
         outSlope: -0.3960001
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.5
-        value: 0.314
-        inSlope: 0.042
-        outSlope: 0.042
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0.324
-========
         time: 0.16666667
         value: -0.554
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3732,11 +3105,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: ArmBack
-========
     path: LADYBUG_UpperLeftLeg
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3752,11 +3121,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.33333334
-========
         time: 0.083333336
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -3765,20 +3130,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-========
         time: 0.16666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -3790,11 +3142,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: ArmBack
-========
     path: LADYBUG_UpperLeftLeg
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3802,7 +3150,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.035
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3810,28 +3158,6 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.33333334
-        value: -0.0070000067
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: -0.058000002
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 1
-        value: -0.035
-========
         time: 0.083333336
         value: 0
         inSlope: 0
@@ -3954,7 +3280,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.16666667
         value: 0.009
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3965,11 +3290,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: ArmFront
-========
     path: LADYBUG_Skirt
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3977,11 +3298,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        value: 0.324
-========
         value: -0.366
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -3989,13 +3306,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.33333334
-        value: 0.28
-========
         time: 0.083333336
         value: -0.4184211
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -4003,22 +3315,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.5
-        value: 0.314
-        inSlope: 0.05999995
-        outSlope: 0.05999995
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0.324
-========
         time: 0.16666667
         value: -0.40599996
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -4029,11 +3327,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: ArmFront
-========
     path: LADYBUG_Skirt
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4049,11 +3343,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.33333334
-========
         time: 0.083333336
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -4062,20 +3352,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-========
         time: 0.16666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -4087,11 +3364,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: ArmFront
-========
     path: LADYBUG_Skirt
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4099,18 +3372,13 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.034999996
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-      - serializedVersion: 3
-        time: 0.33333334
-        value: 0.148
-========
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -4162,7 +3430,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0
         value: 0.011
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -4170,29 +3437,17 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.5
-        value: 0.112
-        inSlope: -0.16950002
-        outSlope: -0.16950002
-========
         time: 0.083333336
         value: 0.011
         inSlope: 0
         outSlope: 0
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 1
-        value: 0.034999996
-========
         time: 0.16666667
         value: 0.011
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -4203,11 +3458,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: Head
-========
     path: LADYBUG_Belly
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4215,29 +3466,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        value: 0.50399995
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.33333334
-        value: 0.292
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0.524
-========
         value: -0.203
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -4245,10 +3474,6 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 1
-        value: 0.50399995
-========
         time: 0.083333336
         value: -0.23342113
         inSlope: 0
@@ -4260,7 +3485,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.16666667
         value: -0.221
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -4271,11 +3495,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: Head
-========
     path: LADYBUG_Belly
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4291,11 +3511,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.33333334
-========
         time: 0.083333336
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -4304,20 +3520,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-========
         time: 0.16666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -4329,11 +3532,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: Head
-========
     path: LADYBUG_Belly
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4348,45 +3547,11 @@ AnimationClip:
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-      - serializedVersion: 3
-        time: 0.33333334
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-========
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: ArmFront
-========
     path: LADYBUG_Belly
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4401,45 +3566,11 @@ AnimationClip:
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-      - serializedVersion: 3
-        time: 0.33333334
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-========
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: ArmFront
-========
     path: LADYBUG_Belly
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4447,34 +3578,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-      - serializedVersion: 3
-        time: 0.33333334
-        value: -34.658
-        inSlope: -113.698
-        outSlope: -113.698
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: -56.849
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
         value: 0
         inSlope: 0
         outSlope: 0
@@ -4486,593 +3589,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: ArmFront
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 7
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 7
-        inSlope: Infinity
-        outSlope: Infinity
-        tangentMode: 103
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_SortingOrder
-    path: ArmFront
-    classID: 212
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.33333334
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.x
-    path: ArmBack
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.33333334
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.y
-    path: ArmBack
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.33333334
-        value: -48.17
-        inSlope: -39.488
-        outSlope: -39.488
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: -53.106
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.z
-    path: ArmBack
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.33333334
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.x
-    path: Body
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.33333334
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.y
-    path: Body
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.33333334
-        value: -35.18
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: -22.261
-        inSlope: 52.770004
-        outSlope: 52.770004
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.z
-    path: Body
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.33333334
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.x
-    path: Head
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.33333334
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.y
-    path: Head
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.33333334
-        value: -69.186
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 27.958
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.z
-    path: Head
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.33333334
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.x
-    path: FrontLeg
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.33333334
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.y
-    path: FrontLeg
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.33333334
-        value: 12.641
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-========
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: FrontLeg
-========
     path: LADYBUG_Belly
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5080,29 +3597,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.33333334
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0
-========
         value: 0.107
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -5110,50 +3605,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.x
-    path: BackLeg
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.33333334
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0
-========
         time: 0.083333336
         value: 0.11618137
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -5161,96 +3614,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.y
-    path: BackLeg
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.33333334
-        value: 20.619
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.5
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.z
-    path: BackLeg
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -0.065
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.33333334
-        value: -0.077
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: -0.065
-========
         time: 0.16666667
         value: 0.07336235
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -5261,11 +3626,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: FrontLeg
-========
     path: LADYBUG_RightAntenna
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5273,20 +3634,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        value: 0.195
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.33333334
-        value: 0.191
-========
         value: 0.319
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -5294,10 +3642,6 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 1
-        value: 0.195
-========
         time: 0.083333336
         value: 0.25560987
         inSlope: 0
@@ -5309,7 +3653,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.16666667
         value: 0.2993152
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -5320,11 +3663,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: FrontLeg
-========
     path: LADYBUG_RightAntenna
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5340,11 +3679,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.33333334
-========
         time: 0.083333336
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -5353,11 +3688,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 1
-========
         time: 0.16666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -5369,11 +3700,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: FrontLeg
-========
     path: LADYBUG_RightAntenna
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5381,7 +3708,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.06999999
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -5389,19 +3716,6 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.33333334
-        value: -0.086
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 1
-        value: -0.06999999
-========
         time: 0.083333336
         value: 0
         inSlope: 0
@@ -5524,7 +3838,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.16666667
         value: -0.144346
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -5535,11 +3848,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: FootFront
-========
     path: LADYBUG_LeftAntenna
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5547,11 +3856,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        value: 0.095
-========
         value: 0.331
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -5559,29 +3864,17 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.33333334
-        value: 0.095
-        inSlope: 0
-        outSlope: 0
-========
         time: 0.083333336
         value: 0.28792882
         inSlope: -0.48867077
         outSlope: -0.48867077
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 1
-        value: 0.095
-========
         time: 0.16666667
         value: 0.24955487
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -5592,11 +3885,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: FootFront
-========
     path: LADYBUG_LeftAntenna
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5612,11 +3901,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.33333334
-========
         time: 0.083333336
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -5637,11 +3922,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: FootFront
-========
     path: LADYBUG_LeftAntenna
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5649,7 +3930,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.025000006
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -5657,19 +3938,6 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.33333334
-        value: -0.003
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 1
-        value: -0.025000006
-========
         time: 0.083333336
         value: 0
         inSlope: 0
@@ -5792,7 +4060,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.16666667
         value: 0.008
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -5803,11 +4070,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: BackLeg
-========
     path: LADYBUG_Head
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5815,11 +4078,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        value: 0.205
-========
         value: 0.214
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -5827,13 +4086,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.33333334
-        value: 0.201
-========
         time: 0.083333336
         value: 0.16
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -5841,13 +4095,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 1
-        value: 0.205
-========
         time: 0.16666667
         value: 0.17142113
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -5858,11 +4107,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: BackLeg
-========
     path: LADYBUG_Head
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5878,11 +4123,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.33333334
-========
         time: 0.083333336
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -5903,11 +4144,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: BackLeg
-========
     path: LADYBUG_Head
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5915,7 +4152,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.00999999
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -5923,19 +4160,6 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.33333334
-        value: 0.004
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 1
-        value: -0.00999999
-========
         time: 0.083333336
         value: 0
         inSlope: 0
@@ -6058,7 +4282,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.16666667
         value: 0
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -6069,11 +4292,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: FootBack
-========
     path: LADYBUG_Torso
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6081,11 +4300,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        value: 0.105
-========
         value: 0
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -6093,13 +4308,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.33333334
-        value: 0.101
-========
         time: 0.083333336
         value: -0.052421138
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -6107,13 +4317,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 1
-        value: 0.105
-========
         time: 0.16666667
         value: -0.04
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -6124,11 +4329,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: FootBack
-========
     path: LADYBUG_Torso
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6144,11 +4345,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 0.33333334
-========
         time: 0.083333336
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -6157,11 +4354,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-        time: 1
-========
         time: 0.16666667
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
         value: 0
         inSlope: 0
         outSlope: 0
@@ -6173,10 +4366,6 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: FootBack
-    classID: 4
-========
     path: LADYBUG_Torso
     classID: 4
     script: {fileID: 0}
@@ -6264,7 +4453,6 @@ AnimationClip:
     attribute: m_SortingOrder
     path: LADYBUG_UpperStaff
     classID: 212
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     script: {fileID: 0}
   m_EulerEditorCurves:
   - curve:
@@ -6274,11 +4462,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: FrontLeg
-========
     path: LADYBUG_LowerLeftLeg
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6288,11 +4472,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: FrontLeg
-========
     path: LADYBUG_LowerLeftLeg
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6302,11 +4482,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: FrontLeg
-========
     path: LADYBUG_LowerLeftLeg
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6316,11 +4492,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: ArmBack
-========
     path: LADYBUG_RightLowerArm
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6330,11 +4502,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: ArmBack
-========
     path: LADYBUG_RightLowerArm
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6344,11 +4512,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: ArmBack
-========
     path: LADYBUG_RightLowerArm
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6358,11 +4522,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: ArmFront
-========
     path: LADYBUG_UpperLeftLeg
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6372,11 +4532,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: ArmFront
-========
     path: LADYBUG_UpperLeftLeg
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6386,11 +4542,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: ArmFront
-========
     path: LADYBUG_UpperLeftLeg
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6400,11 +4552,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: Body
-========
     path: LADYBUG_UpperRightLeg
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6414,11 +4562,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: Body
-========
     path: LADYBUG_UpperRightLeg
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6428,11 +4572,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: Body
-========
     path: LADYBUG_UpperRightLeg
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6442,11 +4582,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: BackLeg
-========
     path: LADYBUG_Skirt
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6456,11 +4592,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: BackLeg
-========
     path: LADYBUG_Skirt
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6470,31 +4602,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: BackLeg
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Head
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Head
-========
     path: LADYBUG_Skirt
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6504,9 +4612,6 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-<<<<<<<< HEAD:Assets/Sprites/BeetleAnims/beetleAttack.anim
-    path: Head
-========
     path: LADYBUG_Belly
     classID: 4
     script: {fileID: 0}
@@ -6798,7 +4903,6 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
     path: LADYBUG_UpperStaff
->>>>>>>> 8c7bbe42e97f8de7461041e9916f231bfae6b05d:Assets/Scripts/LadyBugJumpCharge.anim
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0
