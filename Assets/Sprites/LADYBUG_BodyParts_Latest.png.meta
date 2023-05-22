@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c405ce5e0779b9f4aaf2ac0530e51b11
+guid: 171a2498ff915e1499986dae1e42afa4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -101,23 +101,11 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: beetleUpperLegLeft
+      name: LADYBUG_LeftAntenna
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e055baae98fef64fa636cba2d44e226
-      internalID: 543986994
+      spriteID: bac1be4c9e93ffc4aaea60977636b591
+      internalID: -1460090829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: beetleUpperLegRight
+      name: LADYBUG_Head
       rect:
         serializedVersion: 2
         x: 64
@@ -152,14 +140,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87c559c26a87bc5419ff3bc600882171
-      internalID: 1943569483
+      spriteID: 012b0603ac152a54bbac67cf090c8141
+      internalID: -2058298683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: beetleLegLeftBack
+      name: LADYBUG_RightAntenna
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e5ba7fdb06f32449d2c4539d9bf940
+      internalID: 1986108065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYBUG_LeftUpperArm
       rect:
         serializedVersion: 2
         x: 0
@@ -173,14 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00f50dbf5dadf304394c135990dc27e8
-      internalID: 723330771
+      spriteID: 67e01d38bf16e0649a1041e2f6b2e982
+      internalID: 1018148135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: beetleLegRightBack
+      name: LADYBUG_Torso
       rect:
         serializedVersion: 2
         x: 64
@@ -194,14 +203,56 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edca10872d8ff16489a52840d1e1dd1c
-      internalID: 219493489
+      spriteID: 98b0817a61716c64281c84c68704e86a
+      internalID: -2076159047
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: beetleLegLeftFront
+      name: LADYBUG_RightUpperArm
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6ccf041f9c3c446919a5600a8b319d
+      internalID: 1277665377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYBUG_UpperStaff
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179c80dd86530ec48b07e5545d470931
+      internalID: -397621760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYBUG_LeftLowerArm
       rect:
         serializedVersion: 2
         x: 0
@@ -215,14 +266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 926c8c7cef026c44494a27115f60453d
-      internalID: 1886668362
+      spriteID: 11b6211a5ec91ef4a802dc92551e0d26
+      internalID: 806230783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: beetleLegRightFront
+      name: LADYBUG_Belly
       rect:
         serializedVersion: 2
         x: 64
@@ -236,14 +287,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e3a25674cfcf0a4cb12ff527e4e6b5f
-      internalID: -959016121
+      spriteID: 7a6da94419d853445918ede676c10cc1
+      internalID: 1708369772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: beetleArmBack
+      name: LADYBUG_RightLowerArm
       rect:
         serializedVersion: 2
         x: 128
@@ -257,14 +308,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d47295e87cc04a6438f4719901c1116c
-      internalID: -1784605759
+      spriteID: f3de1f04e530a204db322cdbcb172a03
+      internalID: 1983576600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: beetleHead
+      name: LADYBUG_LowerStaff
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c40f6b010364c4d891b93ad31ebddc
+      internalID: 580311565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYBUG_Skirt
       rect:
         serializedVersion: 2
         x: 0
@@ -278,35 +350,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8664490cab2b6d14891d4661c94fbcc5
-      internalID: -259488202
+      spriteID: 078725efa295dc449b13611802c51af3
+      internalID: -504674097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: beetleTorso
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 45e6b91534a67f44d8dc02b05600bb52
-      internalID: -637056453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: beetleArmFront
+      name: LADYBUG_UpperLeg
       rect:
         serializedVersion: 2
         x: 128
@@ -320,8 +371,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4009d2d10afd02a4582f46dfd1114c8d
-      internalID: -296904560
+      spriteID: 3b33001f63867f44e86e34a78814d924
+      internalID: 660112591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LADYBUG_LowerLeg
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8ca108b4b71da429e12c12befd5210
+      internalID: -465694668
       vertices: []
       indices: 
       edges: []
@@ -337,16 +409,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      beetleUpperLegLeft: 543986994
-      beetleArmBack: -1784605759
-      beetleArmFront: -296904560
-      beetleLegRightBack: 219493489
-      beetleTorso: -637056453
-      beetleLegLeftBack: 723330771
-      beetleLegRightFront: -959016121
-      beetleHead: -259488202
-      beetleUpperLegRight: 1943569483
-      beetleLegLeftFront: 1886668362
+      LADYBUG_Belly: 1708369772
+      LADYBUG_Skirt: -504674097
+      LADYBUG_UpperLeg: 660112591
+      LADYBUG_RightAntenna: 1986108065
+      LADYBUG_Head: -2058298683
+      LADYBUG_UpperStaff: -397621760
+      LADYBUG_LowerStaff: 580311565
+      LADYBUG_LeftUpperArm: 1018148135
+      LADYBUG_Torso: -2076159047
+      LADYBUG_LeftLowerArm: 806230783
+      LADYBUG_LowerLeg: -465694668
+      LADYBUG_LeftAntenna: -1460090829
+      LADYBUG_RightUpperArm: 1277665377
+      LADYBUG_RightLowerArm: 1983576600
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
