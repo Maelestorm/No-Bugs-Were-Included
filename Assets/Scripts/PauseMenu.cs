@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseMenu;
@@ -24,31 +24,32 @@ public class PauseMenu : MonoBehaviour
             }
             else
             {
-                PauseGame(); 
+                PauseGame();
             }
         }
     }
 
-   
+
     void PauseGame()
     {
-        Time.timeScale = 0f; 
+        Time.timeScale = 0f;
         pauseMenu.SetActive(true);
     }
 
     void ResumeGame()
     {
-        Time.timeScale = 1f; 
+        Time.timeScale = 1f;
         pauseMenu.SetActive(false);
     }
 
+    
     public void QuitGame()
     {
-    #if UNITY_EDITOR
+#if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
-    #else
+#else
         Application.Quit();
-    #endif
+#endif
     }
 }
 
