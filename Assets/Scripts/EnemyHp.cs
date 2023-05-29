@@ -18,10 +18,30 @@ public class EnemyHp : MonoBehaviour
                 Die();
             }
         }
+        //if (other.CompareTag("LadybugProjectileCollider"))
+        //{
+        //    health -= LadybugAttack.ladybugAttackDamage;
+        //
+        //    if (health <= 0f)
+        //    {
+        //        Die();
+        //    }
+        //}
+        //if (other.CompareTag("beetleMeleeCollider"))
+        //{
+        //    health -= BeetleAttack.beetleAttackDamage;
+        //
+        //    if (health <= 0f)
+        //    {
+        //        Die();
+        //    }
+        //}
     }
 
     private void Die()
     {
+        //death animation calls
+        //death sound queue calls
         Destroy(gameObject);
     }
 }
