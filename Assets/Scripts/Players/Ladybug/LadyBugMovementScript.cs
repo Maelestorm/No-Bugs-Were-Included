@@ -35,7 +35,7 @@ public class LadyBugMovementScript : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.LeftShift) && !isGrounded && controller.velocity.y < 0)
         {
-            controller.gravityScale = 0.2f;
+            controller.gravityScale = 0.1f;
             anim.SetBool("gliding", true);
         }
         else
@@ -116,7 +116,6 @@ public class LadyBugMovementScript : MonoBehaviour
             {
                 isJumping = true;
                 isRising = true;
-                anim.SetTrigger("startJumping");
             }
         }
         else if (controller.velocity.y < 0 && !isGrounded)
@@ -125,7 +124,6 @@ public class LadyBugMovementScript : MonoBehaviour
             {
                 isRising = false;
                 isFalling = true;
-                anim.SetTrigger("startFalling");
             }
         }
         else if (isGrounded)
@@ -133,7 +131,6 @@ public class LadyBugMovementScript : MonoBehaviour
             if (isFalling)
             {
                 isFalling = false;
-                anim.SetTrigger("land");
             }
         }
     }
