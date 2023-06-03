@@ -853,7 +853,7 @@ MonoBehaviour:
   checkRadius: 0.2
   groundLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 72
   tr: {fileID: 4044312093204397220}
 --- !u!114 &5567090697877739988
 MonoBehaviour:
