@@ -2,27 +2,37 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyHp : MonoBehaviour
+public class PlayerHp : MonoBehaviour
 {
     [SerializeField] private float health;
     [SerializeField] private Animator anim;
 
+    private AntonioMovementScript movementScript;
+    private AntonioAttack attackScript;
     private Rigidbody2D rb;
-    private Collider2D larvaCollider;
-    private LarvaAI larvaAIScript;
+    private Collider2D playerCollider;
+
+    private void Start()
+    {
+        movementScript = GetComponent<AntonioMovementScript>();
+        attackScript = GetComponent<AntonioAttack>();
+        rb = GetComponent<Rigidbody2D>();
+        playerCollider = GetComponent<Collider2D>();
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("AntonioMeleeCollider"))
+        if (other.CompareTag("LarvaAttackCollider"))
         {
-            health -= AntonioAttack.antonioAttackDamage;
-            Debug.Log("Enemy health: " + health);
+            health -= LarvaAI.larvaAttackDamage;
+            Debug.Log("Player health : " + health);
 
             if (health <= 0f)
             {
                 Die();
             }
         }
+
         //if (other.CompareTag("LadybugProjectileCollider"))
         //{
         //    health -= LadybugAttack.ladybugAttackDamage;
@@ -32,6 +42,7 @@ public class EnemyHp : MonoBehaviour
         //        Die();
         //    }
         //}
+
         //if (other.CompareTag("beetleMeleeCollider"))
         //{
         //    health -= BeetleAttack.beetleAttackDamage;
@@ -43,18 +54,22 @@ public class EnemyHp : MonoBehaviour
         //}
     }
 
-
     private void Die()
     {
         anim.SetTrigger("die");
         // FindObjectOfType<AudioManager>().Play("xxxDeath")
 
         // Disable movement script
-        if (larvaAIScript != null)
+        if (movementScript != null)
         {
-            larvaAIScript.enabled = false;
+            movementScript.enabled = false;
         }
 
+        // Disable attack script
+        if (attackScript != null)
+        {
+            attackScript.enabled = false;
+        }
 
         // "Disable" Rigidbody2D
         if (rb != null)
@@ -64,14 +79,9 @@ public class EnemyHp : MonoBehaviour
         }
 
         // Disable Collider2D
-        if (larvaCollider != null)
+        if (playerCollider != null)
         {
-            larvaCollider.enabled = false;
+            playerCollider.enabled = false;
         }
-    }
-
-    private void RemoveObjectFromScene()
-    {
-        Destroy(gameObject);
     }
 }
