@@ -47,7 +47,7 @@ public class EnemyHp : MonoBehaviour
     private void Die()
     {
         anim.SetTrigger("die");
-        // FindObjectOfType<AudioManager>().Play("xxxDeath")
+        FindObjectOfType<AudioManager>().Play("LarvaDeath");
 
         // Disable movement script
         if (larvaAIScript != null)
