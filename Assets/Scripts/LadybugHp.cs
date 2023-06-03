@@ -2,20 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerHp : MonoBehaviour
+public class LadybugHp : MonoBehaviour
 {
     [SerializeField] private float health;
     [SerializeField] private Animator anim;
 
-    private AntonioMovementScript movementScript;
-    private AntonioAttack attackScript;
+    private LadyBugMovementScript movementScript;
+    private LadyBugAttack attackScript;
+
     private Rigidbody2D rb;
     private Collider2D playerCollider;
 
     private void Start()
     {
-        movementScript = GetComponent<AntonioMovementScript>();
-        attackScript = GetComponent<AntonioAttack>();
+        movementScript = GetComponent<LadyBugMovementScript>();
+        attackScript = GetComponent<LadyBugAttack>();
         rb = GetComponent<Rigidbody2D>();
         playerCollider = GetComponent<Collider2D>();
     }

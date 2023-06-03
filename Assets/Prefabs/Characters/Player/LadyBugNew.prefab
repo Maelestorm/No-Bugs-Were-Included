@@ -397,6 +397,7 @@ GameObject:
   - component: {fileID: 5114453423397066526}
   - component: {fileID: 5114453423397066525}
   - component: {fileID: 1560204982}
+  - component: {fileID: 5739985408199606878}
   m_Layer: 0
   m_Name: LadyBugNew
   m_TagString: Player
@@ -529,6 +530,20 @@ MonoBehaviour:
   sparkPrefab: {fileID: 3716119819270028360, guid: e75ea965e0e45d842aa470b6c8ad8e27, type: 3}
   fireRate: 1
   animator: {fileID: 5114453423397066524}
+--- !u!114 &5739985408199606878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5114453423397066498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c2cd9814b4c6f54b8e53332ecebea33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 20
+  anim: {fileID: 5114453423397066524}
 --- !u!1 &5114453423481226100
 GameObject:
   m_ObjectHideFlags: 0

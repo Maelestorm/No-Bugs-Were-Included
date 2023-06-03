@@ -37,6 +37,7 @@ public class LadyBugMovementScript : MonoBehaviour
         {
             controller.gravityScale = 0.1f;
             anim.SetBool("gliding", true);
+            //FindObjectOfType<AudioManager>().Play("LadybugWingFlap");
         }
         else
         {

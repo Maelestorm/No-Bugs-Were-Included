@@ -28,7 +28,7 @@ public class LadyBugAttack : MonoBehaviour
             nextFire = Time.time + fireRate;
             Instantiate(sparkPrefab, attackPoint.position, attackPoint.rotation);
             animator.SetTrigger("Shoot");
+            FindObjectOfType<AudioManager>().Play("LadybugSparkSFX");
         }
     }
-
 }
