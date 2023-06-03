@@ -1064,6 +1064,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f32c31e53c254f43a62a271e79aea0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  characterSelectMenu: {fileID: 0}
+  antButton: {fileID: 0}
+  bettleButton: {fileID: 0}
+  ladyButton: {fileID: 0}
 --- !u!1 &882957303
 GameObject:
   m_ObjectHideFlags: 0
@@ -1077,7 +1081,7 @@ GameObject:
   - component: {fileID: 882957304}
   - component: {fileID: 882957307}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: PauseMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

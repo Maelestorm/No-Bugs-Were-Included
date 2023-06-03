@@ -5,6 +5,11 @@ using UnityEngine;
 public class EnemyHp : MonoBehaviour
 {
     [SerializeField] private float health;
+    [SerializeField] private Animator anim;
+
+    private Rigidbody2D rb;
+    private Collider2D larvaCollider;
+    private LarvaAI larvaAIScript;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -38,10 +43,35 @@ public class EnemyHp : MonoBehaviour
         //}
     }
 
+
     private void Die()
     {
-        //death animation calls
-        //death sound queue calls
+        anim.SetTrigger("die");
+        // FindObjectOfType<AudioManager>().Play("xxxDeath")
+
+        // Disable movement script
+        if (larvaAIScript != null)
+        {
+            larvaAIScript.enabled = false;
+        }
+
+
+        // "Disable" Rigidbody2D
+        if (rb != null)
+        {
+            rb.velocity = Vector2.zero;
+            rb.gravityScale = 0f; // Set gravity scale to zero
+        }
+
+        // Disable Collider2D
+        if (larvaCollider != null)
+        {
+            larvaCollider.enabled = false;
+        }
+    }
+
+    private void RemoveObjectFromScene()
+    {
         Destroy(gameObject);
     }
 }

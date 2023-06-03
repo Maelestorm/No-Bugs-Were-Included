@@ -1,23 +1,61 @@
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
 public class MainMenuScreen : MonoBehaviour
 {
-    public void PlayButton()
+    public GameObject characterSelectMenu;
+    public Button antButton;
+    public Button bettleButton;
+    public Button ladyButton;
+
+    void Start()
     {
-        SceneManager.LoadScene(1);
+        characterSelectMenu.SetActive(false);
+        ladyButton.onClick.AddListener(LadyLevel);
+        antButton.onClick.AddListener(AntLevel);
+        bettleButton.onClick.AddListener(BettleLevel);
     }
 
-    public void MainMenu(){
+    void Update()
+{
+    if (Input.GetKeyDown(KeyCode.Escape))
+    {
+        if (characterSelectMenu.activeSelf)
+        {
+            characterSelectMenu.SetActive(false);
+        }
+    }
+}
+    public void AntLevel()
+    {
+        SceneManager.LoadScene(0);
+    }
+    public void BettleLevel()
+    {
+        SceneManager.LoadScene(0);
+    }
+    public void LadyLevel()
+    {
+        SceneManager.LoadScene(0);
+    }
+
+    public void PlayButton()
+    {
+        characterSelectMenu.SetActive(true);
+    }
+
+
+    public void MainMenu()
+    {
         SceneManager.LoadScene(0);
     }
     public void QuitGameButton()
     {
-    #if UNITY_EDITOR
+#if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
-    #else
+#else
         Application.Quit();
-    #endif
+#endif
     }
-    
+
 }

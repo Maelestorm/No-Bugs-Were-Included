@@ -28,7 +28,7 @@ public class AntonioAttack : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             anim.SetTrigger("isAttacking");
-            Debug.Log("attacked");
+            Debug.Log("Antonio Attacked");
             FindObjectOfType<AudioManager>().Play("AntonioAttack");
         }
     }
