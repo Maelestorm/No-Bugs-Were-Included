@@ -63,3 +63,15 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+  - name: LadybugWingFlap
+    clip: {fileID: 8300000, guid: 696007b8508f6bb4eb4f0273982e645a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: LadybugSparkSFX
+    clip: {fileID: 8300000, guid: 2b21ef916f6943c439b71a7c74568878, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
