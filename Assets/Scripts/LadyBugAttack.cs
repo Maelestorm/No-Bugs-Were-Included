@@ -6,6 +6,7 @@ public class LadyBugAttack : MonoBehaviour
 {
     public Transform attackPoint;
     public GameObject sparkPrefab;
+    public static float ladyBugAttackDamage = 5f;
     public float fireRate;
     float nextFire;
     public Animator animator;
