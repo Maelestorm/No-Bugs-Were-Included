@@ -38,7 +38,7 @@ public class LadyBugAttack : MonoBehaviour
             Instantiate(sparkPrefab, attackPoint.position, attackPoint.rotation);
 
             animator.SetTrigger("Shoot");
-            // FindObjectOfType<AudioManager>().Play("LadybugSparkSFX");
+            FindObjectOfType<AudioManager>().Play("LadybugSparkSFX");
         }
         }
         void ShootSlow()
@@ -55,7 +55,7 @@ public class LadyBugAttack : MonoBehaviour
                 Instantiate(sparkPrefab, attackPoint.position, attackPoint.rotation);
 
                 animator.SetTrigger("Shoot");
-                // FindObjectOfType<AudioManager>().Play("LadybugSparkSFX");
+                FindObjectOfType<AudioManager>().Play("LadybugSparkSFX");
             }
         }
     }
