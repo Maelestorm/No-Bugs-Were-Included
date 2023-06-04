@@ -4781,30 +4781,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8377554900861682188, guid: 8c8aecda065a21b45b412a43900105b5, type: 3}
-      propertyPath: sounds.Array.size
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8377554900861682188, guid: 8c8aecda065a21b45b412a43900105b5, type: 3}
-      propertyPath: sounds.Array.data[5].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: 4e349dc959014a845b9aa317d1c2b7f0, type: 3}
-    - target: {fileID: 8377554900861682188, guid: 8c8aecda065a21b45b412a43900105b5, type: 3}
-      propertyPath: sounds.Array.data[5].name
-      value: Jump
-      objectReference: {fileID: 0}
-    - target: {fileID: 8377554900861682188, guid: 8c8aecda065a21b45b412a43900105b5, type: 3}
-      propertyPath: sounds.Array.data[5].pitch
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8377554900861682188, guid: 8c8aecda065a21b45b412a43900105b5, type: 3}
-      propertyPath: sounds.Array.data[1].volume
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8377554900861682188, guid: 8c8aecda065a21b45b412a43900105b5, type: 3}
-      propertyPath: sounds.Array.data[5].volume
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8377554900861682189, guid: 8c8aecda065a21b45b412a43900105b5, type: 3}
       propertyPath: m_Name
       value: AudioManager
