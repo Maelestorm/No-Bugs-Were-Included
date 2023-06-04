@@ -834,6 +834,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4489113655487356853, guid: 712442fdb8aaa864c8225987436a739a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5114453423397066498, guid: 712442fdb8aaa864c8225987436a739a, type: 3}
       propertyPath: m_Name
       value: LadyBugNew
@@ -890,6 +894,10 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 858097534}
+    - target: {fileID: 5792047576343211697, guid: 712442fdb8aaa864c8225987436a739a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 712442fdb8aaa864c8225987436a739a, type: 3}
 --- !u!1 &482368085
@@ -4783,8 +4791,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8377554900861682188, guid: 8c8aecda065a21b45b412a43900105b5, type: 3}
       propertyPath: sounds.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8377554900861682188, guid: 8c8aecda065a21b45b412a43900105b5, type: 3}
+      propertyPath: sounds.Array.data[3].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3a556606d95438a44b157515617fbd79, type: 3}
     - target: {fileID: 8377554900861682188, guid: 8c8aecda065a21b45b412a43900105b5, type: 3}
       propertyPath: sounds.Array.data[5].clip
       value: 
@@ -4794,8 +4806,20 @@ PrefabInstance:
       value: Jump
       objectReference: {fileID: 0}
     - target: {fileID: 8377554900861682188, guid: 8c8aecda065a21b45b412a43900105b5, type: 3}
+      propertyPath: sounds.Array.data[6].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: df7087e4d8a8bb546bc08ce68632903f, type: 3}
+    - target: {fileID: 8377554900861682188, guid: 8c8aecda065a21b45b412a43900105b5, type: 3}
+      propertyPath: sounds.Array.data[6].name
+      value: FootstepGrass
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377554900861682188, guid: 8c8aecda065a21b45b412a43900105b5, type: 3}
       propertyPath: sounds.Array.data[5].pitch
-      value: 1
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377554900861682188, guid: 8c8aecda065a21b45b412a43900105b5, type: 3}
+      propertyPath: sounds.Array.data[6].pitch
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8377554900861682188, guid: 8c8aecda065a21b45b412a43900105b5, type: 3}
       propertyPath: sounds.Array.data[1].volume
@@ -4803,6 +4827,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8377554900861682188, guid: 8c8aecda065a21b45b412a43900105b5, type: 3}
       propertyPath: sounds.Array.data[5].volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377554900861682188, guid: 8c8aecda065a21b45b412a43900105b5, type: 3}
+      propertyPath: sounds.Array.data[6].volume
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8377554900861682189, guid: 8c8aecda065a21b45b412a43900105b5, type: 3}

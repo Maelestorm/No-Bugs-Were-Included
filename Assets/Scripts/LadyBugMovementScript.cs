@@ -33,11 +33,17 @@ public class LadyBugMovementScript : MonoBehaviour
 
     private void Update()
     {
+
         if (Input.GetKey(KeyCode.LeftShift) && !isGrounded && controller.velocity.y < 0)
         {
             controller.gravityScale = 0.1f;
             anim.SetBool("gliding", true);
-            //FindObjectOfType<AudioManager>().Play("LadybugWingFlap");
+            AudioManager audioManager = FindObjectOfType<AudioManager>();
+            if (audioManager != null)
+            {
+                audioManager.Play("LadybugWingFlap");
+            }
+
         }
         else
         {
@@ -95,6 +101,14 @@ public class LadyBugMovementScript : MonoBehaviour
         if (!Mathf.Approximately(moveInput, 0))
         {
             anim.SetBool("isRunning", true);
+            if (isGrounded)
+            {
+                AudioManager audioManager = FindObjectOfType<AudioManager>();
+                if (audioManager != null)
+                {
+                    audioManager.Play("FootstepGrass");
+                }
+            }
         }
         else
         {
@@ -135,6 +149,8 @@ public class LadyBugMovementScript : MonoBehaviour
                 isFalling = false;
             }
         }
+
+
     }
 
     private bool IsGrounded()
@@ -142,4 +158,5 @@ public class LadyBugMovementScript : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
         return isGrounded;
     }
+
 }
