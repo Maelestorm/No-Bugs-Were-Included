@@ -20,15 +20,43 @@ public class LadyBugAttack : MonoBehaviour
         {
             Shoot();
         }
+        if (Input.GetButtonDown("Fire2"))
+        {
+            ShootSlow();
+        }
     }
     void Shoot()
     {
         if (Time.time > nextFire)
         {
             nextFire = Time.time + fireRate;
+            SparkScript sparkScript = sparkPrefab.GetComponent<SparkScript>();
+            if (sparkScript != null)
+            {
+                sparkScript.speed = 20f;
+            }
             Instantiate(sparkPrefab, attackPoint.position, attackPoint.rotation);
+
             animator.SetTrigger("Shoot");
-            FindObjectOfType<AudioManager>().Play("LadybugSparkSFX");
+            // FindObjectOfType<AudioManager>().Play("LadybugSparkSFX");
+        }
+        }
+        void ShootSlow()
+        {
+            if (Time.time > nextFire)
+            {
+                nextFire = Time.time + fireRate;
+
+                SparkScript sparkScript = sparkPrefab.GetComponent<SparkScript>();
+                if (sparkScript != null)
+                {
+                    sparkScript.speed = 5f;
+                }
+                Instantiate(sparkPrefab, attackPoint.position, attackPoint.rotation);
+
+                animator.SetTrigger("Shoot");
+                // FindObjectOfType<AudioManager>().Play("LadybugSparkSFX");
+            }
         }
     }
-}
+

@@ -9,7 +9,7 @@ public class LadybugHp : MonoBehaviour
 
     private LadyBugMovementScript movementScript;
     private LadyBugAttack attackScript;
-
+    public HealthBarScript healthBar;
     private Rigidbody2D rb;
     private Collider2D playerCollider;
 
@@ -19,6 +19,7 @@ public class LadybugHp : MonoBehaviour
         attackScript = GetComponent<LadyBugAttack>();
         rb = GetComponent<Rigidbody2D>();
         playerCollider = GetComponent<Collider2D>();
+        healthBar.SetHealth(health);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -26,6 +27,7 @@ public class LadybugHp : MonoBehaviour
         if (other.CompareTag("LarvaAttackCollider"))
         {
             health -= LarvaAI.larvaAttackDamage;
+            healthBar.SetHealth(health);
             Debug.Log("Player health : " + health);
 
             if (health <= 0f)

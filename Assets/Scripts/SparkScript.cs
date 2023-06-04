@@ -18,4 +18,8 @@ public class SparkScript : MonoBehaviour
         Debug.Log(hitInfo.name);
         Destroy(gameObject);
     }
+
+    void SlowDownBullet(){
+        speed = 5f;
+    }
 }
