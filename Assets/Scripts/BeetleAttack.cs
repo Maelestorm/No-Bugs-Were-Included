@@ -4,15 +4,41 @@ using UnityEngine;
 
 public class BeetleAttack : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    //private bool isAttacking = false;
+    //private float attackCooldown = 2.0f;
+    //private float timeSinceLastAttack = 0.0f;
+    public static float antonioAttackDamage = 10;
+
+    [SerializeField] private CircleCollider2D meleeCollider;
+    [SerializeField] private Animator anim;
+    [SerializeField] private Rigidbody2D rb;
+
+    private void Start()
     {
-        
+        meleeCollider.gameObject.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        Attack();
+    }
+
+    void Attack()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            anim.SetTrigger("isAttacking");
+            Debug.Log("Beetle Attacked");
+            //FindObjectOfType<AudioManager>().Play("AntonioAttack");
+        }
+    }
+
+    public void MeleeColliderActivate()
+    {
+        meleeCollider.gameObject.SetActive(true);
+    }
+    public void MeleeColliderDeActivate()
+    {
+        meleeCollider.gameObject.SetActive(false);
     }
 }

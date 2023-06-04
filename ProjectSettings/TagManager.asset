@@ -10,6 +10,7 @@ TagManager:
   - Enemy
   - LarvaAttackCollider
   - LadyBugSparkCollider
+  - BeetleMeleeCollider
   layers:
   - Default
   - TransparentFX
