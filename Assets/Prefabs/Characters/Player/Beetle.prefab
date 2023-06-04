@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8081792346623269269}
   - component: {fileID: 6200705703882388403}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1280981889967602520}
   - component: {fileID: 1436569202979429851}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8655240761957997948}
   - component: {fileID: 6692314053766196655}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: beetleMeleeCollider
   m_TagString: BeetleMeleeCollider
   m_Icon: {fileID: 0}
@@ -226,7 +226,7 @@ GameObject:
   m_Component:
   - component: {fileID: 15451786501168107}
   - component: {fileID: 3475385854025161776}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: BackLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -310,7 +310,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5282202789216643350}
   - component: {fileID: 6441128904579483231}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: FootBack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -400,7 +400,7 @@ GameObject:
   - component: {fileID: 4007888002644268282}
   - component: {fileID: 6021524845880436558}
   - component: {fileID: 687432094161044285}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Beetle
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -642,7 +642,7 @@ Rigidbody2D:
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 4
 --- !u!1 &6671676671008468860
@@ -654,7 +654,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7204452552174277035}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: groundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -686,7 +686,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1488188946136734706}
   - component: {fileID: 6176994337775614192}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: ArmBack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -770,7 +770,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1088755806887585452}
   - component: {fileID: 8922066205853134658}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: ArmFront
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -854,7 +854,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1744730960628852777}
   - component: {fileID: 3329594763082217212}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: FootFront
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -938,7 +938,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6164906665938174750}
   - component: {fileID: 5924420442581733784}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: FrontLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}

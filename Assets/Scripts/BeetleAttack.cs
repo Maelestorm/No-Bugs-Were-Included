@@ -7,7 +7,7 @@ public class BeetleAttack : MonoBehaviour
     //private bool isAttacking = false;
     //private float attackCooldown = 2.0f;
     //private float timeSinceLastAttack = 0.0f;
-    public static float antonioAttackDamage = 10;
+    public static float beetleAttackDamage = 10;
 
     [SerializeField] private CircleCollider2D meleeCollider;
     [SerializeField] private Animator anim;

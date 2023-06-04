@@ -10,6 +10,8 @@ public class AntonioHp : MonoBehaviour
     private AntonioMovementScript movementScript;
     private AntonioAttack attackScript;
     private Rigidbody2D rb;
+    public HealthBarScript healthBar;
+
     private Collider2D playerCollider;
 
     private void Start()
@@ -25,6 +27,7 @@ public class AntonioHp : MonoBehaviour
         if (other.CompareTag("LarvaAttackCollider"))
         {
             health -= LarvaAI.larvaAttackDamage;
+            healthBar.SetHealth(health);
             Debug.Log("Player health : " + health);
 
             if (health <= 0f)
