@@ -9,7 +9,7 @@ public class AntonioMovementScript : MonoBehaviour
 {
     private float speed = 4f;
 
-    private float jumpForce = 5f;
+    [SerializeField] private float jumpForce;
     private bool isJumping;
     private float jumpTimeCounter;
     [SerializeField] private float jumpTime;
