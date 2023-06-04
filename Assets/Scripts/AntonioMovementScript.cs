@@ -60,6 +60,7 @@ public class AntonioMovementScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
             anim.SetTrigger("takeOf");
+            FindObjectOfType<AudioManager>().Play("Jump");
             isJumping = true;
             jumpTimeCounter = jumpTime;
             rb.velocity = Vector2.up * jumpForce;

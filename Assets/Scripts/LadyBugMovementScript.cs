@@ -6,7 +6,7 @@ public class LadyBugMovementScript : MonoBehaviour
     private float horizontal;
     private float speed = 4f;
     private float jumpForce = 5f;
-    private bool isGrounded;
+    public static bool isGrounded;
     private bool isJumping;
     private bool isRising;
     private bool isFalling;
@@ -48,6 +48,7 @@ public class LadyBugMovementScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
             anim.SetTrigger("takeOf");
+            FindObjectOfType<AudioManager>().Play("Jump");
             isJumping = true;
             jumpTimeCounter = jumpTime;
             controller.velocity = Vector2.up * jumpForce;
