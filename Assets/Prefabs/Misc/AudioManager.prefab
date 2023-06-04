@@ -64,7 +64,7 @@ MonoBehaviour:
     loop: 0
     source: {fileID: 0}
   - name: LadybugWingFlap
-    clip: {fileID: 8300000, guid: 696007b8508f6bb4eb4f0273982e645a, type: 3}
+    clip: {fileID: 8300000, guid: 3a556606d95438a44b157515617fbd79, type: 3}
     volume: 1
     pitch: 1
     loop: 0
@@ -78,6 +78,12 @@ MonoBehaviour:
   - name: Jump
     clip: {fileID: 8300000, guid: 4e349dc959014a845b9aa317d1c2b7f0, type: 3}
     volume: 1
-    pitch: 1
+    pitch: 2
+    loop: 0
+    source: {fileID: 0}
+  - name: FootstepGrass
+    clip: {fileID: 8300000, guid: df7087e4d8a8bb546bc08ce68632903f, type: 3}
+    volume: 1
+    pitch: 2
     loop: 0
     source: {fileID: 0}
