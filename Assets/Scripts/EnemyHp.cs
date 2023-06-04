@@ -26,21 +26,21 @@ public class EnemyHp : MonoBehaviour
         if (other.CompareTag("LadyBugSparkCollider"))
         {
             health -= LadyBugAttack.ladyBugAttackDamage;
-        
+
             if (health <= 0f)
             {
                 Die();
             }
         }
-        //if (other.CompareTag("beetleMeleeCollider"))
-        //{
-        //    health -= BeetleAttack.beetleAttackDamage;
-        //
-        //    if (health <= 0f)
-        //    {
-        //        Die();
-        //    }
-        //}
+        if (other.CompareTag("BeetleMeleeCollider"))
+        {
+            health -= BeetleAttack.beetleAttackDamage;
+
+            if (health <= 0f)
+            {
+                Die();
+            }
+        }
     }
 
 

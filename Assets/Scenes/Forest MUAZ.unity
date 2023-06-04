@@ -1308,10 +1308,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: LadyBugNew
       objectReference: {fileID: 0}
-    - target: {fileID: 5114453423397066498, guid: 712442fdb8aaa864c8225987436a739a, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5114453423397066499, guid: 712442fdb8aaa864c8225987436a739a, type: 3}
       propertyPath: m_RootOrder
       value: 3

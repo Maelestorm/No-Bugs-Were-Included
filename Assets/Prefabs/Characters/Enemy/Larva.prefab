@@ -129,9 +129,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.122691005, y: 0.09201521}
+  m_Offset: {x: -0.29262394, y: 0.0970265}
   serializedVersion: 2
-  m_Radius: 0.15899834
+  m_Radius: 0.29886442
 --- !u!1 &4203499548617484571
 GameObject:
   m_ObjectHideFlags: 0
@@ -357,8 +357,8 @@ MonoBehaviour:
   pointA: {fileID: 0}
   pointB: {fileID: 0}
   speed: 0.5
-  larvaDetectionRange: 0.5
-  attackCooldown: 3
+  larvaDetectionRange: 0.47
+  attackCooldown: 1
   xOffset: 0.25
   yOffset: 0.1
   larvaAttackCollider: {fileID: 3285462188564993114}

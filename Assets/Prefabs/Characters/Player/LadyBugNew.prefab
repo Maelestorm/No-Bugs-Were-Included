@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 766633801}
   - component: {fileID: 766633802}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: LADYBUG_Crown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1588361109}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: attackPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 807338429501618416}
   - component: {fileID: 2803531572994500971}
   - component: {fileID: 253677637}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: ladyBug_wings_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -309,7 +309,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5114453423383627668}
   - component: {fileID: 5114453423383627669}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: LADYBUG_LowerRightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -398,7 +398,7 @@ GameObject:
   - component: {fileID: 5114453423397066525}
   - component: {fileID: 1560204982}
   - component: {fileID: 5739985408199606878}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: LadyBugNew
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -493,7 +493,7 @@ Rigidbody2D:
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 4
 --- !u!114 &5114453423397066525
@@ -555,7 +555,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5114453423481226101}
   - component: {fileID: 5114453423481226102}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: LADYBUG_Belly
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -639,7 +639,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5114453423513050056}
   - component: {fileID: 5114453423513050057}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: LADYBUG_Skirt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -723,7 +723,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5114453423578401895}
   - component: {fileID: 5114453423578401888}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: LADYBUG_LeftAntenna
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -807,7 +807,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5114453423833083034}
   - component: {fileID: 5114453423833083035}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: LADYBUG_LowerLeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -891,7 +891,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5114453423884828452}
   - component: {fileID: 5114453423884828453}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: LADYBUG_LeftUpperArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -975,7 +975,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5114453423976402673}
   - component: {fileID: 5114453423976402674}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: LADYBUG_UpperRightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1059,7 +1059,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5114453424125293310}
   - component: {fileID: 5114453424125293311}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: LADYBUG_UpperLeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1143,7 +1143,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5114453424414089793}
   - component: {fileID: 5114453424414089794}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: LADYBUG_Torso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1227,7 +1227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5114453424599673125}
   - component: {fileID: 5114453424599673126}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: LADYBUG_RightLowerArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1311,7 +1311,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5114453424625354187}
   - component: {fileID: 5114453424625354180}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: LADYBUG_RightUpperArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1395,7 +1395,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5114453424955350537}
   - component: {fileID: 5114453424955350538}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: LADYBUG_RightAntenna
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1478,7 +1478,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5114453425130824130}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: groundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1510,7 +1510,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5114453425148470978}
   - component: {fileID: 5114453425148470979}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: LADYBUG_Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1595,7 +1595,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5114453425324983247}
   - component: {fileID: 5114453425324983240}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: LADYBUG_LeftLowerArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1679,7 +1679,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5114453425387013591}
   - component: {fileID: 5114453425387013584}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: LADYBUG_LowerStaff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1763,7 +1763,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5114453425456575591}
   - component: {fileID: 5114453425456575584}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: LADYBUG_UpperStaff
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1849,7 +1849,7 @@ GameObject:
   - component: {fileID: 2116280300244549756}
   - component: {fileID: 6026709180843220994}
   - component: {fileID: 1379954526}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: ladyBug_wings_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}

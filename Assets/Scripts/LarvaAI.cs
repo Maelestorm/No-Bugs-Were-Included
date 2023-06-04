@@ -84,11 +84,9 @@ public class LarvaAI : MonoBehaviour
 
     private void CheckPlayerInRange()
     {
-        // Perform a box cast to check if the player is in range
-        Vector2 boxSize = new Vector2(larvaDetectionRange, larvaDetectionRange);
-        Vector2 boxCenter = new Vector2(transform.position.x + xOffset * direction, transform.position.y + yOffset);
-        RaycastHit2D hit = Physics2D.BoxCast(boxCenter, boxSize, 0f, Vector2.zero);
-        if (hit.collider != null && hit.collider.CompareTag("Player"))
+        Collider2D playerCollider = Physics2D.OverlapCircle(transform.position, larvaDetectionRange, LayerMask.GetMask("Player"));
+
+        if (playerCollider != null)
         {
             isPlayerInRange = true;
             Debug.Log("Player is in range");
