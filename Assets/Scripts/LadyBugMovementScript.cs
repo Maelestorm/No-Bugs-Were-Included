@@ -6,7 +6,7 @@ public class LadyBugMovementScript : MonoBehaviour
     private float horizontal;
     private float speed = 4f;
     private float jumpForce = 5f;
-    private bool isGrounded;
+    public static bool isGrounded;
     private bool isJumping;
     private bool isRising;
     private bool isFalling;
@@ -33,10 +33,17 @@ public class LadyBugMovementScript : MonoBehaviour
 
     private void Update()
     {
+
         if (Input.GetKey(KeyCode.LeftShift) && !isGrounded && controller.velocity.y < 0)
         {
             controller.gravityScale = 0.1f;
             anim.SetBool("gliding", true);
+            AudioManager audioManager = FindObjectOfType<AudioManager>();
+            if (audioManager != null)
+            {
+                audioManager.Play("LadybugWingFlap");
+            }
+
         }
         else
         {
@@ -47,6 +54,7 @@ public class LadyBugMovementScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
             anim.SetTrigger("takeOf");
+            FindObjectOfType<AudioManager>().Play("Jump");
             isJumping = true;
             jumpTimeCounter = jumpTime;
             controller.velocity = Vector2.up * jumpForce;
@@ -93,6 +101,14 @@ public class LadyBugMovementScript : MonoBehaviour
         if (!Mathf.Approximately(moveInput, 0))
         {
             anim.SetBool("isRunning", true);
+            if (isGrounded)
+            {
+                AudioManager audioManager = FindObjectOfType<AudioManager>();
+                if (audioManager != null)
+                {
+                    audioManager.Play("FootstepGrass");
+                }
+            }
         }
         else
         {
@@ -133,6 +149,8 @@ public class LadyBugMovementScript : MonoBehaviour
                 isFalling = false;
             }
         }
+
+
     }
 
     private bool IsGrounded()
@@ -140,4 +158,5 @@ public class LadyBugMovementScript : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
         return isGrounded;
     }
+
 }

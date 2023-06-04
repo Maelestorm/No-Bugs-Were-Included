@@ -9,6 +9,7 @@ TagManager:
   - AntonioMeleeCollider
   - Enemy
   - LarvaAttackCollider
+  - LadyBugSparkCollider
   layers:
   - Default
   - TransparentFX

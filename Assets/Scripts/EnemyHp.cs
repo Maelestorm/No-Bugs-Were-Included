@@ -23,15 +23,15 @@ public class EnemyHp : MonoBehaviour
                 Die();
             }
         }
-        //if (other.CompareTag("LadybugProjectileCollider"))
-        //{
-        //    health -= LadybugAttack.ladybugAttackDamage;
-        //
-        //    if (health <= 0f)
-        //    {
-        //        Die();
-        //    }
-        //}
+        if (other.CompareTag("LadyBugSparkCollider"))
+        {
+            health -= LadyBugAttack.ladyBugAttackDamage;
+        
+            if (health <= 0f)
+            {
+                Die();
+            }
+        }
         //if (other.CompareTag("beetleMeleeCollider"))
         //{
         //    health -= BeetleAttack.beetleAttackDamage;
@@ -47,7 +47,7 @@ public class EnemyHp : MonoBehaviour
     private void Die()
     {
         anim.SetTrigger("die");
-        // FindObjectOfType<AudioManager>().Play("xxxDeath")
+        FindObjectOfType<AudioManager>().Play("LarvaDeath");
 
         // Disable movement script
         if (larvaAIScript != null)

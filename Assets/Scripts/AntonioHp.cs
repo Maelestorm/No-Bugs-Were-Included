@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerHp : MonoBehaviour
+public class AntonioHp : MonoBehaviour
 {
     [SerializeField] private float health;
     [SerializeField] private Animator anim;

@@ -7,11 +7,9 @@ using UnityEngine.Assertions;
 
 public class AntonioMovementScript : MonoBehaviour
 {
-    private float horizontal;
     private float speed = 4f;
 
     private float jumpForce = 5f;
-    private bool isGrounded;
     private bool isJumping;
     private float jumpTimeCounter;
     [SerializeField] private float jumpTime;
@@ -60,6 +58,7 @@ public class AntonioMovementScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
             anim.SetTrigger("takeOf");
+            FindObjectOfType<AudioManager>().Play("Jump");
             isJumping = true;
             jumpTimeCounter = jumpTime;
             rb.velocity = Vector2.up * jumpForce;
