@@ -53,7 +53,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: ThemeSong
     clip: {fileID: 8300000, guid: e7f3e5cc1c23f4c478cfe0267977e9f6, type: 3}
-    volume: 0.1
+    volume: 0
     pitch: 1
     loop: 1
     source: {fileID: 0}
@@ -71,6 +71,12 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: LadybugSparkSFX
     clip: {fileID: 8300000, guid: 2b21ef916f6943c439b71a7c74568878, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: 4e349dc959014a845b9aa317d1c2b7f0, type: 3}
     volume: 1
     pitch: 1
     loop: 0
