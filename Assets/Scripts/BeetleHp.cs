@@ -26,6 +26,11 @@ public class BeetleHp : MonoBehaviour
         if (other.CompareTag("LarvaAttackCollider"))
         {
             health -= LarvaAI.larvaAttackDamage;
+            AudioManager audioManager = FindObjectOfType<AudioManager>();
+            if (audioManager != null)
+            {
+                audioManager.Play("CharacterHurt");
+            }
             healthBar.SetHealth(health);
             Debug.Log("Player health : " + health);
 
@@ -38,6 +43,11 @@ public class BeetleHp : MonoBehaviour
         if (other.CompareTag("fLarvaAttackCollider"))
         {
             health -= fLarvaAI.fLarvaAttackDamage;
+            AudioManager audioManager = FindObjectOfType<AudioManager>();
+            if (audioManager != null)
+            {
+                audioManager.Play("CharacterHurt");
+            }
             healthBar.SetHealth(health);
             Debug.Log("Player health : " + health);
 
@@ -51,7 +61,12 @@ public class BeetleHp : MonoBehaviour
     private void Die()
     {
         anim.SetTrigger("die");
-        // FindObjectOfType<AudioManager>().Play("xxxDeath")
+
+        AudioManager audioManager = FindObjectOfType<AudioManager>();
+        if (audioManager != null)
+        {
+            audioManager.Play("CharacterDeath");
+        }
 
         // Disable movement script
         if (movementScript != null)
