@@ -633,6 +633,7 @@ GameObject:
   - component: {fileID: 1097203536}
   - component: {fileID: 533127391}
   - component: {fileID: 533127392}
+  - component: {fileID: 2138268814}
   m_Layer: 12
   m_Name: Boss
   m_TagString: Enemy
@@ -663,6 +664,7 @@ Transform:
   - {fileID: 1291814980}
   - {fileID: 971328145719597464}
   - {fileID: 1263165123}
+  - {fileID: 1646902320694035585}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
@@ -755,7 +757,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tongueTipAttackCollider: {fileID: 2188503880747835102}
-  bossMeleeAttackCollider: {fileID: 0}
+  bossMeleeAttackCollider: {fileID: 8722186164750196913}
+--- !u!114 &2138268814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971328145230538935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55465f1571b8dd044a8aa9bd8e6e2078, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 300
+  anim: {fileID: 63342718}
 --- !u!1 &971328145280577007
 GameObject:
   m_ObjectHideFlags: 0
@@ -1346,6 +1362,54 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2678004157163554020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1646902320694035585}
+  - component: {fileID: 8722186164750196913}
+  m_Layer: 13
+  m_Name: bossMeleeCollider
+  m_TagString: bossMeleeAttackCollider
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1646902320694035585
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2678004157163554020}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.35, y: -1.41, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 971328145230538934}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &8722186164750196913
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2678004157163554020}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.42475158, y: 0.3315131}
+  serializedVersion: 2
+  m_Radius: 0.9040318
 --- !u!1 &3079152923924546958
 GameObject:
   m_ObjectHideFlags: 0
@@ -1777,7 +1841,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2900694260998833608}
   - component: {fileID: 2188503880747835102}
-  m_Layer: 12
+  m_Layer: 13
   m_Name: tongueTipAttackCollider
   m_TagString: bossTongueAttackCollider
   m_Icon: {fileID: 0}

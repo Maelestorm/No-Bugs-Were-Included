@@ -75,7 +75,22 @@ public class AntonioHp : MonoBehaviour
         }
         if (other.CompareTag("bossTongueAttackCollider"))
         {
-            health -= StalagmiteTip.stalagmiteTipDamage;
+            health -= BossAttack.bossTongueColliderDamage;
+            AudioManager audioManager = FindObjectOfType<AudioManager>();
+            if (audioManager != null)
+            {
+                audioManager.Play("CharacterHurt");
+            }
+            //healthBar.SetHealth(health);
+            Debug.Log("Player health : " + health);
+            if (health <= 0f)
+            {
+                Die();
+            }
+        }
+        if (other.CompareTag("bossMeleeAttackCollider"))
+        {
+            health -= BossAttack.bossMeleeColliderDamage;
             AudioManager audioManager = FindObjectOfType<AudioManager>();
             if (audioManager != null)
             {

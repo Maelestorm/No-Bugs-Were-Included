@@ -866,7 +866,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d56a4ed499937554c937fbdfdf1a8e79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 50
+  health: 100
   anim: {fileID: 3083313390502538866}
   healthBar: {fileID: 0}
 --- !u!50 &3016077915246329761

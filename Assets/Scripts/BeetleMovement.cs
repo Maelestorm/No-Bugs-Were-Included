@@ -10,7 +10,7 @@ public class BeetleMovement : MonoBehaviour
 {
     private float speed = 4f;
 
-    private float jumpForce = 5f;
+    private float jumpForce = 6.5f;
     private bool isJumping;
     private float jumpTimeCounter;
     [SerializeField] private float jumpTime;

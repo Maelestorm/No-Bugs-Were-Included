@@ -16,6 +16,7 @@ TagManager:
   - fLarvaAttackCollider
   - bossTongueAttackCollider
   - StalagmiteTipCollider
+  - bossMeleeAttackCollider
   layers:
   - Default
   - TransparentFX
