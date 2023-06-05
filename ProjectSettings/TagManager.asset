@@ -17,6 +17,7 @@ TagManager:
   - bossTongueAttackCollider
   - StalagmiteTipCollider
   - bossMeleeAttackCollider
+  - outOfBounds
   layers:
   - Default
   - TransparentFX
