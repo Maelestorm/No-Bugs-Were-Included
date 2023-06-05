@@ -22,6 +22,10 @@ public class BossController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
+
+    private float actionTimer = 0f;
+    private float actionInterval = 4f;
+
     private void Update()
     {
         AnimTrigger();
@@ -33,11 +37,14 @@ public class BossController : MonoBehaviour
         {
             transform.localScale = new Vector3(-1f, transform.localScale.y, transform.localScale.z);
         }
-        if (!jumped)
-        {
-            ChangePosition();
-        }
 
+        actionTimer += Time.deltaTime;
+
+        if (actionTimer >= actionInterval)
+        {
+            ChooseAction();
+            actionTimer = 0f;
+        }
     }
 
     private void AnimTrigger()
@@ -96,6 +103,8 @@ public class BossController : MonoBehaviour
     {
         isPerformingAction = true;
         animator.SetTrigger("meleeAttack");
+        Debug.Log("meleeAttacked");
+
         // Add logic for melee attack behavior
     }
 
@@ -103,21 +112,23 @@ public class BossController : MonoBehaviour
     {
         isPerformingAction = true;
         animator.SetTrigger("tongueAttack");
+        Debug.Log("tongueattacked");
         // Add logic for tongue attack behavior
     }
 
     private void ChangePosition()
-    {
+    {   
+        Debug.Log("Jumped");
         Vector3 scale = rb.transform.localScale;
         if (scale.x == -1)
         {
-            rb.AddForce(new Vector2(3.5f, 7f), ForceMode2D.Impulse);
+            rb.AddForce(new Vector2(3.5f, 11f), ForceMode2D.Impulse);
             canChangePosition = false;
 
         }
         else
         {
-            rb.AddForce(new Vector2(-3.5f, 7f), ForceMode2D.Impulse);
+            rb.AddForce(new Vector2(-3.5f, 11f), ForceMode2D.Impulse);
             canChangePosition = false;
 
         }
