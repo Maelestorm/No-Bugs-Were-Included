@@ -3,10 +3,18 @@ using UnityEngine.SceneManagement;
 
 public class GameOverScreen : MonoBehaviour
 {
-    public void RestartFromSceneOne()
+    public void RestartFromLadyScene()
     {
-        SceneManager.LoadScene(1);
-            }
+        SceneManager.LoadScene(4);
+    }
+    public void RestartFromBettleScene()
+    {
+        SceneManager.LoadScene(3);
+    }
+    public void RestartFromAntonioScene()
+    {
+        SceneManager.LoadScene(2);
+    }
 
     public void GoBackToMenu()
     {
