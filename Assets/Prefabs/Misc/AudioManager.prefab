@@ -84,11 +84,17 @@ MonoBehaviour:
   - name: FootstepGrass
     clip: {fileID: 8300000, guid: df7087e4d8a8bb546bc08ce68632903f, type: 3}
     volume: 1
-    pitch: 2
+    pitch: 1.091
     loop: 0
     source: {fileID: 0}
   - name: BettleAttack
     clip: {fileID: 8300000, guid: f11db4559b3ffff45b62e9327fc5535d, type: 3}
+    volume: 1
+    pitch: 2
+    loop: 0
+    source: {fileID: 0}
+  - name: fLarvaWings
+    clip: {fileID: 8300000, guid: ac88ecb47b62d004191528caa3cd1254, type: 3}
     volume: 1
     pitch: 2
     loop: 0

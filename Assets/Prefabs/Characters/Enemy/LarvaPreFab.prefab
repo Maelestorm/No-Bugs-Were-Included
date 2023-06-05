@@ -147,6 +147,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3285462188564993114, guid: 878ea008b751498498b8141c6fd386b9, type: 3}
+      propertyPath: m_Radius
+      value: 0.32270718
+      objectReference: {fileID: 0}
+    - target: {fileID: 3285462188564993114, guid: 878ea008b751498498b8141c6fd386b9, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.31062746
+      objectReference: {fileID: 0}
+    - target: {fileID: 3285462188564993114, guid: 878ea008b751498498b8141c6fd386b9, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.15346265
+      objectReference: {fileID: 0}
     - target: {fileID: 6814517177840575631, guid: 878ea008b751498498b8141c6fd386b9, type: 3}
       propertyPath: m_Name
       value: Larva
@@ -159,6 +171,18 @@ PrefabInstance:
       propertyPath: pointB
       value: 
       objectReference: {fileID: 556210667821589083}
+    - target: {fileID: 8794470160420683048, guid: 878ea008b751498498b8141c6fd386b9, type: 3}
+      propertyPath: xOffset
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8794470160420683048, guid: 878ea008b751498498b8141c6fd386b9, type: 3}
+      propertyPath: yOffset
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8794470160420683048, guid: 878ea008b751498498b8141c6fd386b9, type: 3}
+      propertyPath: larvaDetectionRange
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 878ea008b751498498b8141c6fd386b9, type: 3}
 --- !u!4 &3261972765873435888 stripped

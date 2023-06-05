@@ -1,16 +1,13 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NextLevelTrigger : MonoBehaviour
+public class BossArenaTrigger : MonoBehaviour
 {
-  
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-            SceneManager.LoadScene(currentSceneIndex + 1);
+            SceneManager.LoadScene(5);
         }
     }
 }
-
