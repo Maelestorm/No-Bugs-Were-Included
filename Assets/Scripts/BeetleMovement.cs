@@ -1,14 +1,9 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
-using UnityEngine.Assertions;
 
 public class BeetleMovement : MonoBehaviour
 {
     private float speed = 4f;
-
     private float jumpForce = 5f;
     private bool isJumping;
     private float jumpTimeCounter;
@@ -29,7 +24,6 @@ public class BeetleMovement : MonoBehaviour
     [SerializeField] private float dashingTime = 0.2f;
     [SerializeField] private float dashingCooldown = 5f;
 
-
     private BeetleAttack beetleAttack;
 
     private void Start()
@@ -45,9 +39,46 @@ public class BeetleMovement : MonoBehaviour
         {
             return;
         }
-    }
 
-    private float moveInput; // Declare moveInput as a field
+        // Check if the Beetle can charge
+        bool canCharge = IsGrounded() && !beetleAttack.IsAttacking();
+
+        float input = Input.GetAxisRaw("Horizontal");
+
+        if (canCharge && input != 0 && canDash)
+        {
+            anim.SetTrigger("chargeStart");
+            StartCoroutine(Dash(input));
+        }
+
+        float moveInput = Input.GetAxisRaw("Horizontal");
+        rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+
+        // Check for idling or running
+        if (moveInput == 0)
+        {
+            anim.SetBool("isRunning", false);
+        }
+        else if (moveInput != 0 && IsGrounded())
+        {
+            anim.SetBool("isRunning", true);
+            AudioManager audioManager = FindObjectOfType<AudioManager>();
+            if (audioManager != null)
+            {
+                audioManager.Play("FootstepGrass");
+            }
+        }
+
+        // Flipping
+        if (moveInput < 0)
+        {
+            transform.eulerAngles = new Vector3(0, 180, 0);
+        }
+        else if (moveInput > 0)
+        {
+            transform.eulerAngles = new Vector3(0, 0, 0);
+        }
+    }
 
     private void Update()
     {
@@ -58,9 +89,6 @@ public class BeetleMovement : MonoBehaviour
 
         // Check if the Beetle is attacking
         bool isAttacking = beetleAttack.IsAttacking();
-        float input = Input.GetAxisRaw("Horizontal"); // Rename the local variable to 'input'
-        // Check if the Beetle can charge
-        bool canCharge = IsGrounded() && !isAttacking;
 
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
@@ -70,22 +98,13 @@ public class BeetleMovement : MonoBehaviour
             jumpTimeCounter = jumpTime;
             rb.velocity = Vector2.up * jumpForce;
         }
-        if (canCharge && Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        if (canDash && Input.GetKeyDown(KeyCode.LeftShift))
         {
             anim.SetTrigger("chargeStart");
-            StartCoroutine(Dash(input)); // Pass 'input' as a parameter to the Dash coroutine
+            StartCoroutine(Dash(rb.velocity.x));
         }
 
-        if (IsGrounded())
-        {
-            anim.SetBool("inAir", false);
-        }
-        else
-        {
-            anim.SetBool("inAir", true);
-        }
-
-        if (Input.GetKeyDown(KeyCode.Space) && isJumping == true)
+        if (isJumping && Input.GetKey(KeyCode.Space))
         {
             if (jumpTimeCounter > 0)
             {
@@ -103,40 +122,13 @@ public class BeetleMovement : MonoBehaviour
             isJumping = false;
         }
 
-        float moveInput = Input.GetAxisRaw("Horizontal");
-        rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
-
-        // Checking for idling or running
-        if (moveInput == 0)
+        if (IsGrounded())
         {
-            anim.SetBool("isRunning", false);
+            anim.SetBool("inAir", false);
         }
-        else if (moveInput != 0 && IsGrounded())
+        else
         {
-            anim.SetBool("isRunning", true);
-            AudioManager audioManager = FindObjectOfType<AudioManager>();
-            if (audioManager != null)
-            {
-                audioManager.Play("FootstepGrass");
-            }
-        }
-
-
-
-        //flipping
-        if (moveInput < 0)
-        {
-            transform.eulerAngles = new Vector3(0, 180, 0);
-        }
-        else if (moveInput > 0)
-        {
-            transform.eulerAngles = new Vector3(0, 0, 0);
-        }
-
-        if (canCharge && Input.GetKeyDown(KeyCode.LeftShift) && canDash)
-        {
-            anim.SetTrigger("chargeStart");
-            StartCoroutine(Dash(input));
+            anim.SetBool("inAir", true);
         }
     }
 
@@ -145,14 +137,12 @@ public class BeetleMovement : MonoBehaviour
         return Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
     }
 
-
-
     private IEnumerator Dash(float direction)
     {
         canDash = false;
         isDashing = true;
 
-        float dashDirection = Mathf.Sign(direction); // Get the sign of 'direction'
+        float dashDirection = Mathf.Sign(direction);
 
         rb.velocity = new Vector2(direction * dashingPower, dashingHeight);
         tr.emitting = true;
@@ -161,10 +151,9 @@ public class BeetleMovement : MonoBehaviour
         tr.emitting = false;
         isDashing = false;
 
-        anim.SetTrigger("chargeEnd"); // Trigger chargeEnd parameter
+        anim.SetTrigger("chargeEnd");
 
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
     }
-
 }
