@@ -28,15 +28,15 @@ public class MainMenuScreen : MonoBehaviour
 }
     public void AntLevel()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
     }
     public void BettleLevel()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(3);
     }
     public void LadyLevel()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(4);
     }
 
     public void PlayButton()

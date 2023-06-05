@@ -8,19 +8,19 @@ public class BossController : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private float checkRadius;
     [SerializeField] private LayerMask groundLayer;
-
-    [SerializeField] private float positionChangeCooldown = 5f;
     [SerializeField] private float actionCooldown = 2f;
-
+    private bool canChangePosition = true;
+    private float changePositionCooldown = 2f; // Cooldown duration in seconds
+    private float changePositionTimer = 0f;
     private Animator animator;
     private Rigidbody2D rb;
+    private bool facingRight = true;
 
-    private float positionChangeTimer = 0f;
     private float actionCooldownTimer = 0f;
 
     private bool isChangingPosition = false;
     private bool isPerformingAction = false;
-
+    private bool Jumped = false;
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -29,26 +29,22 @@ public class BossController : MonoBehaviour
 
     private void Update()
     {
-        if (!isChangingPosition && !isPerformingAction)
+        if (!canChangePosition)
         {
-            actionCooldownTimer += Time.deltaTime;
+            // Update the change position timer
+            changePositionTimer += Time.deltaTime;
 
-            if (actionCooldownTimer >= actionCooldown)
+            // Check if the cooldown has finished
+            if (changePositionTimer >= changePositionCooldown)
             {
-                ChooseAction();
-                actionCooldownTimer = 0f;
+                canChangePosition = true;
+                changePositionTimer = 0f;
             }
         }
-        else if (isChangingPosition)
-        {
-            positionChangeTimer += Time.deltaTime;
 
-            if (positionChangeTimer >= positionChangeCooldown)
-            {
-                // Change position complete
-                isChangingPosition = false;
-                positionChangeTimer = 0f;
-            }
+        if (IsGrounded() && canChangePosition)
+        {
+            ChangePosition();
         }
     }
 
@@ -86,12 +82,40 @@ public class BossController : MonoBehaviour
 
     private void ChangePosition()
     {
-        isChangingPosition = true;
-        animator.SetTrigger("jump");
-        rb.AddForce(new Vector2(0f, 10f), ForceMode2D.Impulse);
-        // Add logic for changing position behavior
+        if (facingRight)
+        {
+            rb.AddForce(new Vector2(9f, 9f), ForceMode2D.Impulse);
+            animator.SetTrigger("jump");
+            // Add logic for changing position behavior
+            Jumped = true;
+
+            // Start the cooldown
+            canChangePosition = false;
+            Vector3 scale = rb.transform.localScale;
+            scale.x = 1f;
+            rb.transform.localScale = scale;
+            facingRight = false;
+        }
+        else
+        {
+            rb.AddForce(new Vector2(-9f, 9f), ForceMode2D.Impulse);
+            animator.SetTrigger("jump");
+            // Add logic for changing position behavior
+            Jumped = true;
+
+            // Start the cooldown
+            canChangePosition = false;
+            Vector3 scale = rb.transform.localScale;
+            scale.x = -1f;
+            rb.transform.localScale = scale;
+            facingRight = true;
+        }
     }
 
+    private void Flip()
+    {
+
+    }
     private bool IsGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);

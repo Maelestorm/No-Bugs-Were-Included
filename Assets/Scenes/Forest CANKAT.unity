@@ -503,18 +503,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3285462188564993114, guid: 878ea008b751498498b8141c6fd386b9, type: 3}
-      propertyPath: m_Radius
-      value: 0.30908424
-      objectReference: {fileID: 0}
-    - target: {fileID: 3285462188564993114, guid: 878ea008b751498498b8141c6fd386b9, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.30284375
-      objectReference: {fileID: 0}
-    - target: {fileID: 3394660124815867411, guid: 878ea008b751498498b8141c6fd386b9, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6814517177840575631, guid: 878ea008b751498498b8141c6fd386b9, type: 3}
       propertyPath: m_Name
       value: Larva

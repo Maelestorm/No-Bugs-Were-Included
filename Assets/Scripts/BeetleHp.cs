@@ -10,6 +10,7 @@ public class BeetleHp : MonoBehaviour
     private BeetleMovement movementScript;
     private BeetleAttack attackScript;
     private Rigidbody2D rb;
+    public HealthBarScript healthBar;
     private Collider2D playerCollider;
 
     private void Start()
@@ -25,6 +26,7 @@ public class BeetleHp : MonoBehaviour
         if (other.CompareTag("LarvaAttackCollider"))
         {
             health -= LarvaAI.larvaAttackDamage;
+            healthBar.SetHealth(health);
             Debug.Log("Player health : " + health);
 
             if (health <= 0f)
