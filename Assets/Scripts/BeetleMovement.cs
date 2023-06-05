@@ -14,14 +14,6 @@ public class BeetleMovement : MonoBehaviour
     private float jumpTimeCounter;
     [SerializeField] private float jumpTime;
 
-    private bool canDash = true;
-    private bool isDashing;
-    private float dashingPower = 10f;
-    private float dashingHeight = 2.5f;
-    private float dashingTime = 0.2f;
-    private float dashingCooldown = 1f;
-
-
     private Rigidbody2D rb;
     private Animator anim;
 
@@ -30,11 +22,21 @@ public class BeetleMovement : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private TrailRenderer tr;
 
+    private bool canDash = true;
+    private bool isDashing;
+    [SerializeField] private float dashingPower = 3f;
+    [SerializeField] private float dashingHeight = 0f;
+    [SerializeField] private float dashingTime = 0.2f;
+    [SerializeField] private float dashingCooldown = 5f;
+
+
+    private BeetleAttack beetleAttack;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        beetleAttack = GetComponent<BeetleAttack>();
     }
 
     private void FixedUpdate()
@@ -52,6 +54,11 @@ public class BeetleMovement : MonoBehaviour
             return;
         }
 
+        // Check if the Beetle is attacking
+        bool isAttacking = beetleAttack.IsAttacking();
+
+        // Check if the Beetle can charge
+        bool canCharge = IsGrounded() && !isAttacking;
 
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
@@ -114,8 +121,9 @@ public class BeetleMovement : MonoBehaviour
             transform.eulerAngles = new Vector3(0, 0, 0);
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        if (canCharge && Input.GetKeyDown(KeyCode.LeftShift) && canDash)
         {
+            anim.SetTrigger("chargeStart");
             StartCoroutine(Dash());
         }
     }
@@ -131,15 +139,15 @@ public class BeetleMovement : MonoBehaviour
     {
         canDash = false;
         isDashing = true;
-        float originalGravity = rb.gravityScale;
-        rb.gravityScale = 0f;
+
         rb.velocity = new Vector2(transform.localScale.x * dashingPower, transform.localScale.y * dashingHeight);
         tr.emitting = true;
 
         yield return new WaitForSeconds(dashingTime);
         tr.emitting = false;
-        rb.gravityScale = originalGravity;
         isDashing = false;
+
+        anim.SetTrigger("chargeEnd"); // Trigger chargeEnd parameter
 
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
