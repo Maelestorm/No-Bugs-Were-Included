@@ -32,8 +32,11 @@ public class BeetleAttack : MonoBehaviour
         {
             isAttacking = true; // Set the isAttacking flag
             anim.SetTrigger("isAttacking");
-            Debug.Log("Beetle Attacked");
-            //FindObjectOfType<AudioManager>().Play("AntonioAttack");
+            AudioManager audioManager = FindObjectOfType<AudioManager>();
+            if (audioManager != null)
+            {
+                audioManager.Play("BettleAttack");
+            }
         }
     }
 

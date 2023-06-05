@@ -10,7 +10,7 @@ public class BossController : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private float actionCooldown = 2f;
     private bool canChangePosition = true;
-    private float changePositionCooldown = 2f; // Cooldown duration in seconds
+    private float changePositionCooldown = 10f; // Cooldown duration in seconds
     private float changePositionTimer = 0f;
     private Animator animator;
     private Rigidbody2D rb;
@@ -29,6 +29,7 @@ public class BossController : MonoBehaviour
 
     private void Update()
     {
+
         if (!canChangePosition)
         {
             // Update the change position timer
@@ -112,10 +113,6 @@ public class BossController : MonoBehaviour
         }
     }
 
-    private void Flip()
-    {
-
-    }
     private bool IsGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);

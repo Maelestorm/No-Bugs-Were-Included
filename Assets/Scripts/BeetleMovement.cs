@@ -104,9 +104,14 @@ public class BeetleMovement : MonoBehaviour
         {
             anim.SetBool("isRunning", false);
         }
-        else
+        else if (moveInput != 0 && IsGrounded())
         {
             anim.SetBool("isRunning", true);
+            AudioManager audioManager = FindObjectOfType<AudioManager>();
+            if (audioManager != null)
+            {
+                audioManager.Play("FootstepGrass");
+            }
         }
 
 
