@@ -4,18 +4,17 @@ using UnityEngine;
 
 public class StalagmiteTrapActivator : MonoBehaviour
 {
-
-
-    //ontrigger cart curt ile player collision'ý detect et ve sonra detection varsa true döndüren bir method yaz
-    // Start is called before the first frame update
-    void Start()
+    public GameObject staglamiteTrap;
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        
-    }
+        if (other.CompareTag("Player"))
+        {
+            Rigidbody2D rb = staglamiteTrap.GetComponent<Rigidbody2D>();
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+            if (rb != null)
+            {
+                rb.gravityScale = 2f;
+            }
+        }
     }
 }
