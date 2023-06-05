@@ -81,7 +81,7 @@ public class AntonioHp : MonoBehaviour
             {
                 audioManager.Play("CharacterHurt");
             }
-            //healthBar.SetHealth(health);
+            healthBar.SetHealth(health);
             Debug.Log("Player health : " + health);
             if (health <= 0f)
             {
@@ -96,7 +96,7 @@ public class AntonioHp : MonoBehaviour
             {
                 audioManager.Play("CharacterHurt");
             }
-            //healthBar.SetHealth(health);
+            healthBar.SetHealth(health);
             Debug.Log("Player health : " + health);
             if (health <= 0f)
             {

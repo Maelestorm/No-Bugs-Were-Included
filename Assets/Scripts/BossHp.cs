@@ -10,12 +10,15 @@ public class BossHp : MonoBehaviour
     private Rigidbody2D rb;
     private Collider2D bossCollider;
     private BossController bossController;
+    public HealthBarScript bossHealthBar;
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("AntonioMeleeCollider"))
         {
             health -= AntonioAttack.antonioAttackDamage;
+            bossHealthBar.SetHealth(health);
             AudioManager audioManager = FindObjectOfType<AudioManager>();
             if (audioManager != null)
             {
@@ -30,6 +33,7 @@ public class BossHp : MonoBehaviour
         if (other.CompareTag("LadyBugSparkCollider"))
         {
             health -= LadyBugAttack.ladyBugAttackDamage;
+            bossHealthBar.SetHealth(health);
             AudioManager audioManager = FindObjectOfType<AudioManager>();
             if (audioManager != null)
             {
@@ -44,6 +48,7 @@ public class BossHp : MonoBehaviour
         if (other.CompareTag("BeetleMeleeCollider"))
         {
             health -= BeetleAttack.beetleAttackDamage;
+            bossHealthBar.SetHealth(health);
             AudioManager audioManager = FindObjectOfType<AudioManager>();
             if (audioManager != null)
             {
