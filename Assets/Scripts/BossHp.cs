@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossHp : MonoBehaviour
 {
@@ -88,5 +89,10 @@ public class BossHp : MonoBehaviour
     private void RemoveObjectFromScene()
     {
         Destroy(gameObject);
+    }
+
+    private void GoToVictoryScene()
+    {
+        //load victory scene build index
     }
 }

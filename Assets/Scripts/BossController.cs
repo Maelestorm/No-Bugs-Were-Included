@@ -20,11 +20,14 @@ public class BossController : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+
+        StartCoroutine(FiveSecondLatency());
     }
 
 
     private float actionTimer = 0f;
     private float actionInterval = 4f;
+
 
     private void Update()
     {
@@ -105,7 +108,11 @@ public class BossController : MonoBehaviour
         animator.SetTrigger("meleeAttack");
         Debug.Log("meleeAttacked");
 
-        // Add logic for melee attack behavior
+        AudioManager audioManager = FindObjectOfType<AudioManager>();
+        if (audioManager != null)
+        {
+            audioManager.Play("BossMelee");
+        }
     }
 
     private void PerformTongueAttack()
@@ -113,7 +120,12 @@ public class BossController : MonoBehaviour
         isPerformingAction = true;
         animator.SetTrigger("tongueAttack");
         Debug.Log("tongueattacked");
-        // Add logic for tongue attack behavior
+
+        AudioManager audioManager = FindObjectOfType<AudioManager>();
+        if (audioManager != null)
+        {
+            audioManager.Play("BossTongue");
+        }
     }
 
     private void ChangePosition()
@@ -123,14 +135,23 @@ public class BossController : MonoBehaviour
         if (scale.x == -1)
         {
             rb.AddForce(new Vector2(3.5f, 11f), ForceMode2D.Impulse);
+            AudioManager audioManager = FindObjectOfType<AudioManager>();
+            if (audioManager != null)
+            {
+                audioManager.Play("BossJump");
+            }
             canChangePosition = false;
 
         }
         else
         {
             rb.AddForce(new Vector2(-3.5f, 11f), ForceMode2D.Impulse);
+            AudioManager audioManager = FindObjectOfType<AudioManager>();
+            if (audioManager != null)
+            {
+                audioManager.Play("BossJump");
+            }
             canChangePosition = false;
-
         }
         jumped = true;
     }
@@ -139,5 +160,15 @@ public class BossController : MonoBehaviour
     private bool IsGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
+    }
+
+    private IEnumerator FiveSecondLatency()
+    {
+        yield return new WaitForSeconds(5f);
+        AudioManager audioManager = FindObjectOfType<AudioManager>();
+        if (audioManager != null)
+        {
+            audioManager.Play("BossMusic");
+        }
     }
 }
