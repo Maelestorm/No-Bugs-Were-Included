@@ -16,6 +16,11 @@ public class fLarvaHp : MonoBehaviour
         if (other.CompareTag("AntonioMeleeCollider"))
         {
             health -= AntonioAttack.antonioAttackDamage;
+            AudioManager audioManager = FindObjectOfType<AudioManager>();
+            if (audioManager != null)
+            {
+                audioManager.Play("LarvaHurt");
+            }
             Debug.Log("Enemy health: " + health);
 
             if (health <= 0f)
@@ -26,7 +31,11 @@ public class fLarvaHp : MonoBehaviour
         if (other.CompareTag("LadyBugSparkCollider"))
         {
             health -= LadyBugAttack.ladyBugAttackDamage;
-
+            AudioManager audioManager = FindObjectOfType<AudioManager>();
+            if (audioManager != null)
+            {
+                audioManager.Play("LarvaHurt");
+            }
             if (health <= 0f)
             {
                 Die();
@@ -35,7 +44,11 @@ public class fLarvaHp : MonoBehaviour
         if (other.CompareTag("BeetleMeleeCollider"))
         {
             health -= BeetleAttack.beetleAttackDamage;
-
+            AudioManager audioManager = FindObjectOfType<AudioManager>();
+            if (audioManager != null)
+            {
+                audioManager.Play("LarvaHurt");
+            }
             if (health <= 0f)
             {
                 Die();

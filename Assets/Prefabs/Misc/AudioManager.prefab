@@ -111,3 +111,9 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+  - name: LarvaHurt
+    clip: {fileID: 8300000, guid: 734c3a1317cc4c44699279c6cf28b1e2, type: 3}
+    volume: 1
+    pitch: 0.25
+    loop: 0
+    source: {fileID: 0}

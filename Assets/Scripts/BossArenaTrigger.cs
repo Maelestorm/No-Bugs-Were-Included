@@ -7,7 +7,17 @@ public class BossArenaTrigger : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            AudioManager audioManager = FindObjectOfType<AudioManager>();
+            if (audioManager != null)
+            {
+                audioManager.Stop("ThemeSong");
+            }
             SceneManager.LoadScene(5);
+            if (audioManager != null)
+            {
+                audioManager.Play("CaveLoadingSound");
+            }
+            
         }
     }
 }
