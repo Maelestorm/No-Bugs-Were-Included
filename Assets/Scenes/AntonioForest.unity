@@ -22097,11 +22097,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3083313390502538877, guid: 0a74da93084d5dc46bd7eef9c23a7dba, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.6694193
+      value: 79
       objectReference: {fileID: 0}
     - target: {fileID: 3083313390502538877, guid: 0a74da93084d5dc46bd7eef9c23a7dba, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.23
+      value: -5.46
       objectReference: {fileID: 0}
     - target: {fileID: 3083313390502538877, guid: 0a74da93084d5dc46bd7eef9c23a7dba, type: 3}
       propertyPath: m_LocalPosition.z
@@ -22312,7 +22312,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 690938914}
-  - component: {fileID: 690938913}
   m_Layer: 0
   m_Name: StalagmiteTrap
   m_TagString: Untagged
@@ -22320,18 +22319,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &690938913
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 690938912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f2b273f7c852e742b6c81d830f241cc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &690938914
 Transform:
   m_ObjectHideFlags: 0
@@ -23349,7 +23336,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1036932729}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -7.5, z: 0}
+  m_LocalPosition: {x: 0, y: -7.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23381,7 +23368,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.47266388, y: 1.1127234}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -23392,7 +23379,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.9453278, y: 3.2254467}
   m_EdgeRadius: 0
 --- !u!1 &1043187238
 GameObject:
