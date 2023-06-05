@@ -11,6 +11,7 @@ TagManager:
   - LarvaAttackCollider
   - LadyBugSparkCollider
   - BeetleMeleeCollider
+  - StalagmiteTipCollider
   layers:
   - Default
   - TransparentFX
