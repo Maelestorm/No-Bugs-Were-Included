@@ -28,25 +28,56 @@ public class MainMenuScreen : MonoBehaviour
 }
     public void AntLevel()
     {
+        AudioManager audioManager = FindObjectOfType<AudioManager>();
+        if (audioManager != null)
+        {
+            audioManager.Play("ButtonClick");
+            audioManager.Stop("MainMenuMusic");
+        }
         SceneManager.LoadScene(2);
+        audioManager.Play("ThemeSong");
     }
     public void BettleLevel()
     {
+        AudioManager audioManager = FindObjectOfType<AudioManager>();
+        if (audioManager != null)
+        {
+            audioManager.Play("ButtonClick");
+            audioManager.Stop("MainMenuMusic");
+        }
         SceneManager.LoadScene(3);
+        audioManager.Play("ThemeSong");
     }
     public void LadyLevel()
     {
+        AudioManager audioManager = FindObjectOfType<AudioManager>();
+        if (audioManager != null)
+        {
+            audioManager.Play("ButtonClick");
+            audioManager.Stop("MainMenuMusic");
+        }
         SceneManager.LoadScene(4);
+        audioManager.Play("ThemeSong");
     }
 
     public void PlayButton()
     {
+        AudioManager audioManager = FindObjectOfType<AudioManager>();
+        if (audioManager != null)
+        {
+            audioManager.Play("ButtonClick");
+        }
         characterSelectMenu.SetActive(true);
     }
 
 
     public void MainMenu()
     {
+        AudioManager audioManager = FindObjectOfType<AudioManager>();
+        if (audioManager != null)
+        {
+            audioManager.Play("ButtonClick");
+        }
         SceneManager.LoadScene(0);
     }
     public void QuitGameButton()

@@ -32,12 +32,22 @@ public class PauseMenu : MonoBehaviour
 
     void PauseGame()
     {
+        AudioManager audioManager = FindObjectOfType<AudioManager>();
+        if (audioManager != null)
+        {
+            audioManager.Play("ButtonClick");
+        }
         Time.timeScale = 0f;
         pauseMenu.SetActive(true);
     }
 
     void ResumeGame()
     {
+        AudioManager audioManager = FindObjectOfType<AudioManager>();
+        if (audioManager != null)
+        {
+            audioManager.Play("ButtonClick");
+        }
         Time.timeScale = 1f;
         pauseMenu.SetActive(false);
     }
