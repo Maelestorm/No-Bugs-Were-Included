@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class BossArenaTrigger : MonoBehaviour
+public class BeetleBossArenaTrigger : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -12,7 +12,7 @@ public class BossArenaTrigger : MonoBehaviour
             {
                 audioManager.Stop("ThemeSong");
             }
-            SceneManager.LoadScene(5);
+            SceneManager.LoadScene(7);
             if (audioManager != null)
             {
                 audioManager.Play("CaveLoadingSound");

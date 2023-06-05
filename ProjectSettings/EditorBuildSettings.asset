@@ -21,6 +21,12 @@ EditorBuildSettings:
     path: Assets/Scenes/LadybugForest.unity
     guid: b23107fa258b02d4388d2864b7b51d37
   - enabled: 1
-    path: Assets/Scenes/BossArena.unity
+    path: Assets/Scenes/Antonio BossArena.unity
     guid: fbac217bc3e162347a60b0d8cdc8574a
+  - enabled: 1
+    path: Assets/Scenes/Ladybug BossArena.unity
+    guid: 641bae48e2855f8489b8e09afb6bc958
+  - enabled: 1
+    path: Assets/Scenes/Beetle BossArena.unity
+    guid: 0d8864d7a136aca46bde9a4f92239c94
   m_configObjects: {}

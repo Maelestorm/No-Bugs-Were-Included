@@ -631,7 +631,7 @@ GameObject:
   - component: {fileID: 63342720}
   - component: {fileID: 63342718}
   - component: {fileID: 1097203536}
-  - component: {fileID: 2081786387}
+  - component: {fileID: 533127391}
   m_Layer: 12
   m_Name: Boss
   m_TagString: Enemy
@@ -728,8 +728,8 @@ MonoBehaviour:
   checkRadius: 0.2
   actionCooldown: 5
   player: {fileID: 0}
---- !u!61 &2081786387
-BoxCollider2D:
+--- !u!58 &533127391
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -741,19 +741,9 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.53194046, y: -0.544606}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Offset: {x: -0.46540737, y: -0.4654071}
   serializedVersion: 2
-  m_Size: {x: 2.7731361, y: 2.747805}
-  m_EdgeRadius: 0
+  m_Radius: 1.4308145
 --- !u!1 &971328145280577007
 GameObject:
   m_ObjectHideFlags: 0
