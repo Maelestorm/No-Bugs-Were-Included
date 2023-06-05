@@ -15,6 +15,7 @@ public class BossController : MonoBehaviour
     private bool isChangingPosition = false;
     private bool isPerformingAction = false;
     private bool jumped = false;
+    public Transform player;
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -24,7 +25,14 @@ public class BossController : MonoBehaviour
     private void Update()
     {
         AnimTrigger();
-
+        if (player.position.x < transform.position.x)
+        {
+            transform.localScale = new Vector3(1f, transform.localScale.y, transform.localScale.z);
+        }
+        else
+        {
+            transform.localScale = new Vector3(-1f, transform.localScale.y, transform.localScale.z);
+        }
         if (!jumped)
         {
             ChangePosition();
@@ -103,13 +111,13 @@ public class BossController : MonoBehaviour
         Vector3 scale = rb.transform.localScale;
         if (scale.x == -1)
         {
-            rb.AddForce(new Vector2(7.5f, 11f), ForceMode2D.Impulse);
+            rb.AddForce(new Vector2(3.5f, 7f), ForceMode2D.Impulse);
             canChangePosition = false;
 
         }
         else
         {
-            rb.AddForce(new Vector2(-7.5f, 11f), ForceMode2D.Impulse);
+            rb.AddForce(new Vector2(-3.5f, 7f), ForceMode2D.Impulse);
             canChangePosition = false;
 
         }
