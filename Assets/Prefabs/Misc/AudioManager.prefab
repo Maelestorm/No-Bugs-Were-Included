@@ -84,7 +84,7 @@ MonoBehaviour:
   - name: FootstepGrass
     clip: {fileID: 8300000, guid: df7087e4d8a8bb546bc08ce68632903f, type: 3}
     volume: 1
-    pitch: 1.091
+    pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: BettleAttack
@@ -131,19 +131,49 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: MainMenuMusic
     clip: {fileID: 8300000, guid: 1abea6745c2ba468986243b8a3437571, type: 3}
-    volume: 1
+    volume: 0.5
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: EndGameMusic
     clip: {fileID: 8300000, guid: 8f728b88388bb4a7ea8a357e4a8f1f42, type: 3}
-    volume: 1
+    volume: 0.5
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: BossMusic
     clip: {fileID: 8300000, guid: 1d4b52da05a66c840abc813096ed8edf, type: 3}
-    volume: 1
+    volume: 0.75
     pitch: 1
     loop: 1
+    source: {fileID: 0}
+  - name: BossDeath
+    clip: {fileID: 8300000, guid: cba433795f4f2d048b8ec763e04e2cbd, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BossJump
+    clip: {fileID: 8300000, guid: 8a0d9e1566b2618449195d141685ac96, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BossTongue
+    clip: {fileID: 8300000, guid: 07190679eed2a4e47986f8f8cf3de9ae, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BossMelee
+    clip: {fileID: 8300000, guid: 53b0f8447cf043a4cb68bee507e7a0d4, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BossHurt
+    clip: {fileID: 8300000, guid: 6b37c5ad528a7f04a9d77ce3b093a75c, type: 3}
+    volume: 1
+    pitch: 0.5
+    loop: 0
     source: {fileID: 0}

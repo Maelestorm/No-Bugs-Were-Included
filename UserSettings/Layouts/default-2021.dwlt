@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Inspector
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 18648
+  controlID: 49
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 18649
+  controlID: 50
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 18650
+  controlID: 51
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -189,8 +189,8 @@ MonoBehaviour:
     y: 0
     width: 351
     height: 425
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -405,18 +405,18 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 78fcfdffbe01feff7c06feff220cfeffe010feff8616feff441bfeffea20feff6426feff262bfeff5a31feff3636feffdc3bfeff1c42feffda46feff344dfefff851feffb658feff865dfeff3263feff0068feff3a6ffeffe474feffb879feff727ffeff5a85feff1c8bfeff169bfeffc29cfeffc29efeffcca0feff28a3feffc0a6feff2ea8feff80a9feffeeaafeffe6adfeff9eb3feff4eb5feff7cb8feff7abafeffc6bcfeff64befeffd2bffeffd0c4feff1ecafeffcccffeff18d7feffcedcfeffd4e3feffece9feff8ceffeff9af5feffb0fbfeff8600ffffd206ffff160cffffb80effff4c15fffff01bffff8e70ffff2478ffff048fffff6c8fffffa0acffff06adffff08adffffb0aeffff16b0ffff9efafffff6fafffff8faffff52f000000af10000
+      m_ExpandedIDs: 3625ffff7c2affff1036ffffe837ffff9e43ffff4659ffff967effffee7efffffa7effff087fffff0a7fffff5284ffffe285ffff3a86ffff4686ffffa086ffff8edaffffbcdaffffc8daffff3cdbffff6ee7ffffacedffff5cf5fffff8faffffde8e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Antonio
-        m_OriginalName: Antonio
+        m_Name: tongueTip
+        m_OriginalName: tongueTip
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -118966
+        m_UserData: -31262
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -720,9 +720,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 82.81657, y: -4.851625, z: -5.5442495}
+    m_Target: {x: -1.1993114, y: 1.4985396, z: -0.04476368}
     speed: 2
-    m_Value: {x: 82.81657, y: -4.851625, z: -5.5442495}
+    m_Value: {x: -1.1993114, y: 1.4985396, z: -0.04476368}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -773,9 +773,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 7.4586434
+    m_Target: 3.0713294
     speed: 2
-    m_Value: 7.4586434
+    m_Value: 3.0713294
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -897,22 +897,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Audio/LAST ONES MUAZ
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Audio/LAST ONES MUAZ
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Unity_Projects\No-Bugs-Were-Included
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 31}
-    m_SelectedIDs: 3c670000
-    m_LastClickedID: 26428
-    m_ExpandedIDs: 00000000d4660000d6660000d8660000da660000dc660000de660000e0660000e2660000e4660000e6660000e8660000326700003a67000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 86710000
+    m_LastClickedID: 29062
+    m_ExpandedIDs: 0000000010680000126800001468000016680000186800001a6800001c6800001e6800002068000022680000246800006a6800007268000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -940,7 +940,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d4660000d6660000d8660000da660000dc660000de660000e0660000e2660000e4660000e6660000e866000000ca9a3b
+    m_ExpandedIDs: 0000000010680000126800001468000016680000186800001a6800001c6800001e680000206800002268000024680000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1054,7 +1054,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -92522
+  m_LastSelectedObjectID: -42684
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1090,6 +1090,7 @@ MonoBehaviour:
     - {fileID: -1547810284970485592, guid: 94b2e5ffa23a5fd4c8d12e4cafeacce5, type: 2}
     - {fileID: 8263548388077314618, guid: a66f8d64ffee2b04aaa42d6702076bbc, type: 2}
     - {fileID: -5080328360620262246, guid: 7e49cfdf10a304847bf2693bea80ab5a, type: 2}
+    - {fileID: 2456475003520236148, guid: 0aa04da4d02170e499dd6c20b74a517b, type: 2}
     m_ValueSerializationHelper:
     - e00: 1
       e01: 0
@@ -1162,6 +1163,22 @@ MonoBehaviour:
       e10: 0
       e11: 1
       e12: 0
+      e13: 30
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
       e13: 0
       e20: 0
       e21: 0
@@ -1172,9 +1189,9 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 7e49cfdf10a304847bf2693bea80ab5a, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: 94b2e5ffa23a5fd4c8d12e4cafeacce5, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: -5080328360620262246, guid: 7e49cfdf10a304847bf2693bea80ab5a, type: 2}
+  - m_Target: {fileID: -1547810284970485592, guid: 94b2e5ffa23a5fd4c8d12e4cafeacce5, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
