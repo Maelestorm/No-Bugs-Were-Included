@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6244402732593654784}
   - component: {fileID: 6244402732593654785}
-  - component: {fileID: 6244402732593654787}
+  - component: {fileID: 7293608641491215308}
   m_Layer: 0
   m_Name: NextLevelTrigger
   m_TagString: Untagged
@@ -59,7 +59,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &6244402732593654787
+--- !u!114 &7293608641491215308
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

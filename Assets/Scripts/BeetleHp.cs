@@ -35,25 +35,17 @@ public class BeetleHp : MonoBehaviour
             }
         }
 
-        //if (other.CompareTag("LadybugProjectileCollider"))
-        //{
-        //    health -= LadybugAttack.ladybugAttackDamage;
-        //
-        //    if (health <= 0f)
-        //    {
-        //        Die();
-        //    }
-        //}
+        if (other.CompareTag("fLarvaAttackCollider"))
+        {
+            health -= fLarvaAI.fLarvaAttackDamage;
+            healthBar.SetHealth(health);
+            Debug.Log("Player health : " + health);
 
-        //if (other.CompareTag("beetleMeleeCollider"))
-        //{
-        //    health -= BeetleAttack.beetleAttackDamage;
-        //
-        //    if (health <= 0f)
-        //    {
-        //        Die();
-        //    }
-        //}
+            if (health <= 0f)
+            {
+                Die();
+            }
+        }
     }
 
     private void Die()
