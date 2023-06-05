@@ -57,6 +57,21 @@ public class AntonioHp : MonoBehaviour
                 Die();
             }
         }
+        if (other.CompareTag("StalagmiteTipCollider"))
+        {
+            health -= StalagmiteTip.stalagmiteTipDamage;
+            AudioManager audioManager = FindObjectOfType<AudioManager>();
+            if (audioManager != null)
+            {
+                audioManager.Play("CharacterHurt");
+            }
+            healthBar.SetHealth(health);
+            Debug.Log("Player health : " + health);
+            if (health <= 0f)
+            {
+                Die();
+            }
+        }
     }
 
     private void Die()

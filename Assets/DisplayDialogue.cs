@@ -12,7 +12,7 @@ public class DisplayDialogue : MonoBehaviour
     public Text dialogueText;
     public float letterDelay = 0.1f;
     public bool messageDisplayed = false;
-     public LadyBugMovementScript ladyBug;
+    public LadyBugMovementScript ladyBug;
     private bool isDialogueStarted = false;
     public GameObject pressEtoInteractDisplay;
 
@@ -41,7 +41,7 @@ public class DisplayDialogue : MonoBehaviour
     void StartDialogue()
     {
         // Time.timeScale = 0;
-        ladyBug.enabled =false;
+        ladyBug.enabled = false;
         DialogueCanvas.SetActive(true);
         if (!isDialogueStarted)
         {
@@ -76,6 +76,11 @@ public class DisplayDialogue : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
+                AudioManager audioManager = FindObjectOfType<AudioManager>();
+                if (audioManager != null)
+                {
+                    audioManager.Play("HarubyyActivation");
+                }
                 StartDialogue();
                 if (Input.GetKeyDown(KeyCode.E) && messageDisplayed)
                 {
