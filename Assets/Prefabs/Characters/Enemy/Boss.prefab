@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1263165123}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1263165122}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5, y: -2.25, z: 0}
+  m_LocalPosition: {x: -0.5, y: -2.027, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1291814980}
   - component: {fileID: 1291814981}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BossBackLegOuterBehind
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125,7 +125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1613586064}
   - component: {fileID: 1613586065}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BossBackLegFeetBehind
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -209,7 +209,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1919833070}
   - component: {fileID: 1919833071}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BossBackLegInnerBehind
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -293,7 +293,7 @@ GameObject:
   m_Component:
   - component: {fileID: 971328144288104395}
   - component: {fileID: 971328144288104394}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BossBackLegOuter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -377,7 +377,7 @@ GameObject:
   m_Component:
   - component: {fileID: 971328144480786083}
   - component: {fileID: 971328144480786082}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BossFrontLegBehind
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -461,7 +461,7 @@ GameObject:
   m_Component:
   - component: {fileID: 971328144984331183}
   - component: {fileID: 971328144984331182}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BossFrontLegFrontier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -545,7 +545,7 @@ GameObject:
   m_Component:
   - component: {fileID: 971328145209903700}
   - component: {fileID: 971328145209903723}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BossBackLegInner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -629,11 +629,10 @@ GameObject:
   m_Component:
   - component: {fileID: 971328145230538934}
   - component: {fileID: 63342720}
-  - component: {fileID: 63342719}
   - component: {fileID: 63342718}
   - component: {fileID: 1097203536}
   - component: {fileID: 2081786387}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Boss
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -663,6 +662,9 @@ Transform:
   - {fileID: 1291814980}
   - {fileID: 971328145719597464}
   - {fileID: 1263165123}
+  - {fileID: 2900694260998833608}
+  - {fileID: 7820558103954876488}
+  - {fileID: 2617495001645353673}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
@@ -687,44 +689,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!60 &63342719
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 971328145230538935}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.42097855, y: 0.40043914}
-      - {x: 0.433712, y: 0.6151173}
-      - {x: 0.22458649, y: 0.78755283}
-      - {x: -0.6414757, y: 0.78101254}
-      - {x: -0.7993079, y: -0.103737324}
-      - {x: -1.711277, y: -0.5751493}
-      - {x: -1.9386864, y: -1.4115001}
-      - {x: -1.7289352, y: -1.9491193}
-      - {x: 0.605002, y: -1.9134487}
-      - {x: -0.14236832, y: -1.5643286}
-      - {x: 0.47734225, y: -0.8973715}
-      - {x: 0.91607666, y: -0.16422594}
-      - {x: 0.8539381, y: 0.175479}
 --- !u!95 &63342718
 Animator:
   serializedVersion: 4
@@ -757,14 +721,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0250b9c1acb062343afe8393dcf0e546, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftPoint: {fileID: 0}
-  rightPoint: {fileID: 0}
   groundCheck: {fileID: 1263165123}
-  checkRadius: 0.2
   groundLayer:
     serializedVersion: 2
     m_Bits: 72
+  checkRadius: 0.2
   actionCooldown: 5
+  player: {fileID: 0}
 --- !u!61 &2081786387
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -801,7 +764,7 @@ GameObject:
   m_Component:
   - component: {fileID: 971328145280577006}
   - component: {fileID: 971328145280577005}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BossTorso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -885,7 +848,7 @@ GameObject:
   m_Component:
   - component: {fileID: 971328145719597464}
   - component: {fileID: 971328145719597471}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BossBackLegFeet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -969,7 +932,7 @@ GameObject:
   m_Component:
   - component: {fileID: 971328146245018750}
   - component: {fileID: 971328146245018749}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BossChin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1053,7 +1016,7 @@ GameObject:
   m_Component:
   - component: {fileID: 971328146267196334}
   - component: {fileID: 971328146267196333}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: BossHead
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1139,7 +1102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6761212741446973412}
   - component: {fileID: 8729038008893213391}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: tongueMiddle (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1223,7 +1186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2646581487497603558}
   - component: {fileID: 1374590216156836990}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: tongueMiddle (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1297,6 +1260,54 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1394435616165672872
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7820558103954876488}
+  - component: {fileID: 5777970439523736666}
+  m_Layer: 12
+  m_Name: tongueMiddleAttackCollider
+  m_TagString: bossTongueAttackCollider
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &7820558103954876488
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394435616165672872}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.79, y: -0.04, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 971328145230538934}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &5777970439523736666
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394435616165672872}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &2428779743770820480
 GameObject:
   m_ObjectHideFlags: 0
@@ -1307,7 +1318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1020296197848211275}
   - component: {fileID: 8200366023818010485}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: tongueMiddle (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1391,7 +1402,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6096528551909257210}
   - component: {fileID: 4256735885446858981}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: tongueMiddle (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1475,7 +1486,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6104836294075206704}
   - component: {fileID: 5742566798005406669}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: tongueMiddle (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1559,7 +1570,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1135412386344316341}
   - component: {fileID: 3098739961383441480}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: tongueTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1643,7 +1654,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1115430943416536732}
   - component: {fileID: 2805407582459281036}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: tongueMiddle (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1727,7 +1738,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1024167868748715301}
   - component: {fileID: 320041540339539050}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: tongueRoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1801,6 +1812,54 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &5372807066011886638
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2900694260998833608}
+  - component: {fileID: 2188503880747835102}
+  m_Layer: 12
+  m_Name: tongueTipAttackCollider
+  m_TagString: bossTongueAttackCollider
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2900694260998833608
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5372807066011886638}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.28, y: -1.13, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 971328145230538934}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &2188503880747835102
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5372807066011886638}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &5390850630222431676
 GameObject:
   m_ObjectHideFlags: 0
@@ -1810,7 +1869,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3016849377993035391}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Tongue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1857,7 +1916,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6680341996738342297}
   - component: {fileID: 5428616272148377491}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: tongueMiddle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1941,7 +2000,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1724383942729900137}
   - component: {fileID: 5946125510734610516}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: tongueMiddle (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2015,6 +2074,54 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &6881860179199766223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2617495001645353673}
+  - component: {fileID: 3134665751122624397}
+  m_Layer: 12
+  m_Name: tongueRootAttackCollider
+  m_TagString: bossTongueAttackCollider
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2617495001645353673
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6881860179199766223}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.44, y: 0.22, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 971328145230538934}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &3134665751122624397
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6881860179199766223}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &6907234199357819247
 GameObject:
   m_ObjectHideFlags: 0
@@ -2025,7 +2132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4883048176975656740}
   - component: {fileID: 1006597226747472505}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: tongueMiddle (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2109,7 +2216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 241038014959063341}
   - component: {fileID: 6609897439209682032}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: tongueMiddle (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2193,7 +2300,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2616922970116029220}
   - component: {fileID: 8418613983373444956}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: tongueMiddle (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2277,7 +2384,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7421397495867887930}
   - component: {fileID: 6043634908705294631}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: tongueMiddle (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2361,7 +2468,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4038114413231821434}
   - component: {fileID: 6744882085139686921}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: tongueMiddle (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
