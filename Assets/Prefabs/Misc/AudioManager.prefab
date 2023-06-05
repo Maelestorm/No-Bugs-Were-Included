@@ -177,3 +177,9 @@ MonoBehaviour:
     pitch: 0.5
     loop: 0
     source: {fileID: 0}
+  - name: BlipSound
+    clip: {fileID: 8300000, guid: 734c3a1317cc4c44699279c6cf28b1e2, type: 3}
+    volume: 1
+    pitch: 2.01
+    loop: 0
+    source: {fileID: 0}

@@ -98,6 +98,15 @@ public class BossHp : MonoBehaviour
 
     private void GoToVictoryScene()
     {
-        //load victory scene build index
+        AudioManager audioManager = FindObjectOfType<AudioManager>();
+        if (audioManager != null)
+        {
+            audioManager.Stop("BossMusic");
+        }
+        SceneManager.LoadScene(8);
+        if (audioManager != null)
+        {
+            audioManager.Play("MenuMusic");
+        }
     }
 }

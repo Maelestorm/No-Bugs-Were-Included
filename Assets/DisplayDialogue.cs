@@ -53,7 +53,7 @@ public class DisplayDialogue : MonoBehaviour
     IEnumerator DisplayTextLetterByLetter()
     {
         dialogueText.text = ""; // Clear the text initially
-        string originalText = "selamın aleyküm alyküm selam naber ii sen iiinaber ii esen iii napıon sanane xdxd cscscscs \n press 'E' to skip";
+        string originalText = "Ah, traveler! I see the fire in your eyes, the determination in your stride.\n You stand before a formidable challenge, a true test of your mettle. \n But fear not, for within you lies the strength of countless heroes who have faced adversity and emerged victorious.\npress 'E' to skip";
         StringBuilder stringBuilder = new StringBuilder();
 
         for (int i = 0; i < originalText.Length; i++)
