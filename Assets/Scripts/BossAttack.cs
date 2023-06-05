@@ -1,18 +1,34 @@
-using System.Collections;
-using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class BossAttack : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private Animator anim;
+
+    [SerializeField] private CircleCollider2D tongueTipAttackCollider;
+    [SerializeField] private CircleCollider2D bossMeleeAttackCollider;
+
+    public static float bossTongueColliderDamage;
+    public static float bossMeleeColliderDamage;
+
+ 
+    //animation event calls for bossMeleeAttackCollider
+    public void BossMeleeColliderActivate()
     {
-        
+        bossMeleeAttackCollider.gameObject.SetActive(true);
+    }
+    public void BossMeleeColliderDeActivate()
+    {
+        bossMeleeAttackCollider.gameObject.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
+    //animation event calls for tongueTipAttackCollider
+    public void TongueTipAttackColliderActivate()
     {
-        
+        tongueTipAttackCollider.gameObject.SetActive(true);
+    }
+    public void TongueTipAttackColliderDeActivate()
+    {
+        tongueTipAttackCollider.gameObject.SetActive(false);
     }
 }
