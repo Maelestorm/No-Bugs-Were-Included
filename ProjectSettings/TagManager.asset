@@ -14,6 +14,8 @@ TagManager:
   - LeftArea
   - RightArea
   - fLarvaAttackCollider
+  - bossTongueAttackCollider
+  - StalagmiteTipCollider
   layers:
   - Default
   - TransparentFX

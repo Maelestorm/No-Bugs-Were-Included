@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BeetleHp : MonoBehaviour
 {
@@ -107,5 +108,17 @@ public class BeetleHp : MonoBehaviour
         {
             playerCollider.enabled = false;
         }
+    }
+
+    private void LoadEndGame()
+    {
+        AudioManager audioManager = FindObjectOfType<AudioManager>();
+        if (audioManager != null)
+        {
+            audioManager.Stop("ThemeSong");
+            audioManager.Stop("BossMusic");
+        }
+        SceneManager.LoadScene(1);
+        audioManager.Play("EndGameMusic");
     }
 }
