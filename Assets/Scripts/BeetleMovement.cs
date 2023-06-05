@@ -47,6 +47,8 @@ public class BeetleMovement : MonoBehaviour
         }
     }
 
+    private float moveInput; // Declare moveInput as a field
+
     private void Update()
     {
         if (isDashing)
@@ -56,7 +58,7 @@ public class BeetleMovement : MonoBehaviour
 
         // Check if the Beetle is attacking
         bool isAttacking = beetleAttack.IsAttacking();
-
+        float input = Input.GetAxisRaw("Horizontal"); // Rename the local variable to 'input'
         // Check if the Beetle can charge
         bool canCharge = IsGrounded() && !isAttacking;
 
@@ -67,6 +69,11 @@ public class BeetleMovement : MonoBehaviour
             isJumping = true;
             jumpTimeCounter = jumpTime;
             rb.velocity = Vector2.up * jumpForce;
+        }
+        if (canCharge && Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        {
+            anim.SetTrigger("chargeStart");
+            StartCoroutine(Dash(input)); // Pass 'input' as a parameter to the Dash coroutine
         }
 
         if (IsGrounded())
@@ -129,7 +136,7 @@ public class BeetleMovement : MonoBehaviour
         if (canCharge && Input.GetKeyDown(KeyCode.LeftShift) && canDash)
         {
             anim.SetTrigger("chargeStart");
-            StartCoroutine(Dash());
+            StartCoroutine(Dash(input));
         }
     }
 
@@ -140,12 +147,14 @@ public class BeetleMovement : MonoBehaviour
 
 
 
-    private IEnumerator Dash()
+    private IEnumerator Dash(float direction)
     {
         canDash = false;
         isDashing = true;
 
-        rb.velocity = new Vector2(transform.localScale.x * dashingPower, transform.localScale.y * dashingHeight);
+        float dashDirection = Mathf.Sign(direction); // Get the sign of 'direction'
+
+        rb.velocity = new Vector2(direction * dashingPower, dashingHeight);
         tr.emitting = true;
 
         yield return new WaitForSeconds(dashingTime);
@@ -157,4 +166,5 @@ public class BeetleMovement : MonoBehaviour
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
     }
+
 }
