@@ -53,7 +53,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: ThemeSong
     clip: {fileID: 8300000, guid: e7f3e5cc1c23f4c478cfe0267977e9f6, type: 3}
-    volume: 0.25
+    volume: 0.15
     pitch: 1
     loop: 1
     source: {fileID: 0}
@@ -131,19 +131,19 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: MainMenuMusic
     clip: {fileID: 8300000, guid: 1abea6745c2ba468986243b8a3437571, type: 3}
-    volume: 0.5
+    volume: 0.15
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: EndGameMusic
     clip: {fileID: 8300000, guid: 8f728b88388bb4a7ea8a357e4a8f1f42, type: 3}
-    volume: 0.5
+    volume: 0.25
     pitch: 1
     loop: 1
     source: {fileID: 0}
   - name: BossMusic
     clip: {fileID: 8300000, guid: 1d4b52da05a66c840abc813096ed8edf, type: 3}
-    volume: 0.75
+    volume: 0.5
     pitch: 1
     loop: 1
     source: {fileID: 0}
